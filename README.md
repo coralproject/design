@@ -29,29 +29,29 @@ The design process provides us with the appropriate techniques and tools to thor
 ##Design Process
 This is our design process and some of the activities required in each. While they are in sequential order, there is a lot of circling back when we come across new findings  When reaching out to help contribute with design, please let me know which area you would like to be involved in. 
 
-**Stakeholder Interviews** 
-Gather requirements, research, KPI’s, and a wish list of features.
+**Stakeholder Interviews**  
+Gather requirements, research, KPI’s, and a wish list of features.  
 
-**User Research & Analysis** 
-Identify user needs, frustrations and behaviors through exploratory research and model them.
+**User Research & Analysis**  
+Identify user needs, frustrations and behaviors through exploratory research and model them.  
 
-**Information Architecture** 
-Define the navigation, taxonomy, terminology, metadata, findability and searchability.
+**Information Architecture**  
+Define the navigation, taxonomy, terminology, metadata, findability and searchability.  
 
-**Interaction Design** 
-Create the interaction model, flows and prototypes.
+**Interaction Design**   
+Create the interaction model, flows and prototypes.  
 
-**Content Strategy** 
-Content planning, development and management.
+**Content Strategy**   
+Content planning, development and management.   
 
-**Visual Design** 
-Define the brand, identity, color palette and type.
+**Visual Design**  
+Define the brand, identity, color palette and type.  
 
-**Usability** 
-Planning and running cognitive evaluations around ease of use and learnability.
+**Usability**  
+Planning and running cognitive evaluations around ease of use and learnability.  
 
-**User Testing** 
-Attitudinal and behavioral evaluations of hypotheses.
+**User Testing**  
+Attitudinal and behavioral evaluations of hypotheses.  
 
 
 #### Project Success
