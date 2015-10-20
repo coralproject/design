@@ -10,11 +10,14 @@ This is the process  we employ across all design disciplines in order to properl
 
 1. [Introduction](#introduction)
 2. [Design Process](#design-process)
-3. [First Product](#first-product)
+3. [User Research](#user-research)
+4. [First Product](#first-product)
 
 ## Introduction
 
->  "People ignore design that ignores people."   *Frank Chimero*
+>  "People ignore design that ignores people."  
+
+Frank Chimero
 
 
 The design process provides us with the appropriate techniques and tools to thoroughly assess the user's needs around a particular problem definition.  This is especially useful when we want to:
@@ -46,7 +49,7 @@ Content planning, development and management.
 Define the brand, identity, color palette and type.
 
 **Usability**
-Cognitive evaluations around ease of use and learnability.
+Planning and running cognitive evaluations around ease of use and learnability.
 
 **User Testing**
 Attitudinal and behavioral evaluations of hypotheses.
@@ -69,10 +72,32 @@ Project roadmap for initial phase of project.
 ![Project Roadmap 9.2015](/images/design-roadmap-phase-1.png)
 
 ## User Research
+### Interviews
+Qualitative data gather over the past year from our conversations with more than 300 people in over 175 organizations from more than 25 countries.
+
+### Needs Analysis
 [Trello board with needs by role](https://trello.com/b/Dhrb4D74/coral-s-needs-public)
+
+### Personas
+Personas are currently ongoing and will require a new set of interviews for validation and insight.
+
+#### Target roles
+Audience
+Engagement Editor
+Journalist
+Moderator
+Publisher
+Developer
+
+### Journey Map
+Journey Map is currently ongoing based on qualitative data from interviews.
 
 ##First Product
 > "Our first product is a reputational analytics tool that takes existing comment log data to give indicative reputational scores to publishers.
 That information can then be used by publishers to i) identify their best commenters so their contributions can be highlighted and become the basis for future journalism based on their own definition of “good”, ii) give moderators a sense of context about each commenter, and iii) help publishers understand the nature of commenter behavior on their site."
 
 Greg Barber [Our First Product](https://coralproject.net/first-product/)
+
+### Wireframes
+#### Initial Admin Flow based on high level needs of Engagement Editor role.
+![Admin IA Flow - Engagement Editor](/images/Admin IA Initial Draft 1.0.1.png)
