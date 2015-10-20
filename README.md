@@ -49,6 +49,7 @@ Cognitive evaluations around ease of use and learnability.
 **User Testing**
 Attitudinal and behavioral evaluations of hypotheses.
 
+
 #### Project Success
 
 Users distinct concerns are met with a personalized value proposition which is attractive and engaging. The platform is simple to understand and pleasing to use. The platform accurately meets the goals of the users.
@@ -56,3 +57,8 @@ Users distinct concerns are met with a personalized value proposition which is a
 #### Project Failure
 
 Users have not had their needs properly identified nor met. The platform is unintuitive, cumbersome and adds complexity or frustration to their workflow.
+
+#### Project Roadmap
+Project roadmap for initial phase of project.
+![Project Roadmap 9.2015](/images/design-roadmap-phase-1.png)
+
