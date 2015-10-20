@@ -4,18 +4,23 @@ On **The Coral Project**, we are creating open-source tools and resources for pu
 
 Throughout this process we will collect, support, and share practices, tools, techniques and studies to improve communities on the web.
 
-This is a break down of the design process  we employed across all design disciplines in order to properly assess user needs and frustrations so that we can properly ensure which products to build that will add a value proposition to everyone's experience. 
+This is the process  we employ across all design disciplines in order to properly assess user needs and frustrations so that we can properly ensure which products to build that will satisfy our user's goals and add a value proposition to everyone's experience. 
 
 ### Contents
 
 1. [Introduction](#introduction)
 2. [Design Process](#design-process)
+3. [User Research](#user-research)
+4. [First Product](#first-product)
 
 ## Introduction
 
-> ### "People ignore design that ignores people."   *-- Frank Chimero*
+>  "People ignore design that ignores people."  
 
-The design process gives us the techniques and tools to thoroughly assess the user's needs around a particular problem definition.  It is especially useful when we want to:
+Frank Chimero
+
+
+The design process provides us with the appropriate techniques and tools to thoroughly assess the user's needs around a particular problem definition.  This is especially useful when we want to:
 
  1. make a decision based on observational or subjective data.
  2. gather behavioral and attitudinal insights from users.
@@ -26,7 +31,7 @@ The design process gives us the techniques and tools to thoroughly assess the us
 This is our design process and some of the activities required in each. While they are in sequential order, there is a lot of circling back when we come across new findings  When reaching out to help contribute with design, please let me know which area you would like to be involved in. 
 
 **Stakeholder Interviews**
-Gather requirements, KPI’s, and a wish list of features.
+Gather requirements, research, KPI’s, and a wish list of features.
 
 **User Research & Analysis**
 Identify user needs, frustrations and behaviors through exploratory research and model them.
@@ -44,7 +49,7 @@ Content planning, development and management.
 Define the brand, identity, color palette and type.
 
 **Usability**
-Cognitive evaluations around ease of use and learnability.
+Planning and running cognitive evaluations around ease of use and learnability.
 
 **User Testing**
 Attitudinal and behavioral evaluations of hypotheses.
@@ -52,13 +57,47 @@ Attitudinal and behavioral evaluations of hypotheses.
 
 #### Project Success
 
-Users distinct concerns are met with a personalized value proposition which is attractive and engaging. The platform is simple to understand and pleasing to use. The platform accurately meets the goals of the users.
+1. Users distinct concerns are met with a personalized value proposition which is attractive and engaging. 
+2. The platform is simple to understand and pleasing to use. 
+3. The platform accurately meets the goals of the users.
 
 #### Project Failure
 
-Users have not had their needs properly identified nor met. The platform is unintuitive, cumbersome and adds complexity or frustration to their workflow.
+1. Users have not had their needs properly identified nor met. 
+2. The platform is unintuitive, cumbersome and adds complexity or frustration to their workflow.
+3. The platform fails to meet the goals of the users.
 
 #### Project Roadmap
-Project roadmap for initial phase of project.
+Project roadmap for initial phase of project. 
 ![Project Roadmap 9.2015](/images/design-roadmap-phase-1.png)
 
+## User Research
+### Interviews
+Qualitative data gather over the past year from our conversations with more than 300 people in over 175 organizations from more than 25 countries.
+
+### Needs Analysis
+[Trello board with needs by role](https://trello.com/b/Dhrb4D74/coral-s-needs-public)
+
+### Personas
+Personas are currently ongoing and will require a new set of interviews for validation and insight.
+
+#### Target roles
+Audience
+Engagement Editor
+Journalist
+Moderator
+Publisher
+Developer
+
+### Journey Map
+Journey Map is currently ongoing based on qualitative data from interviews.
+
+##First Product
+> "Our first product is a reputational analytics tool that takes existing comment log data to give indicative reputational scores to publishers.
+That information can then be used by publishers to i) identify their best commenters so their contributions can be highlighted and become the basis for future journalism based on their own definition of “good”, ii) give moderators a sense of context about each commenter, and iii) help publishers understand the nature of commenter behavior on their site."
+
+Greg Barber [Our First Product](https://coralproject.net/first-product/)
+
+### Wireframes
+#### Initial Admin Flow based on high level needs of Engagement Editor role.
+![Admin IA Flow - Engagement Editor](/images/Admin IA Initial Draft 1.0.1.png)
