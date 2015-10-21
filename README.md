@@ -27,7 +27,7 @@ The design process provides us with the appropriate techniques and tools to thor
  3. map intent to behavioral cues through user and mental models.
  4. facilitate design thinking and understanding across the company.
 
-##Design Process
+## Design Process
 This is our design process and some of the activities required in each. While they are in sequential order, there is a lot of iterating back when we come across new findings.  
 
 **Stakeholder Interviews**  
@@ -57,8 +57,8 @@ Attitudinal and behavioral evaluations of hypotheses.
 ###### Hypothesis driven design process flow  
 1. Conceptualize *idea*.
 2. What *assumptions* can we make from this concept?
-3. What *hypothesis* can we formulate from these assumptions.
-<blockquote>If **[action]** then **[outcome]** because **[user need/problem has been addressed]**</blockquote>    
+3. What *hypothesis* can we formulate from these assumptions.   
+*e.g.* *If* **[action]** *then* **[outcome]** *because* **[user need/problem has been addressed]**    
 4. What *experiment* do we plan and conduct to test this hypothesis.
 5. What did we *learn*?
 6. What will do *next*?
@@ -84,7 +84,8 @@ Project roadmap for initial phase of project.
 
 ## User Research
 #### Interviews
-Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.  
+Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.   
+
 Task focused follow up interviews are currently being planned for our first product. 
 
 
@@ -113,18 +114,18 @@ Personas are currently ongoing and will require a new set of interviews for vali
 Journey Map is currently ongoing based on qualitative data from interviews.  
 
 
-##First Product
+## First Product
 > "Our first product is a reputational analytics tool that takes existing comment log data to give indicative reputational scores to publishers.
 That information can then be used by publishers to i) identify their best commenters so their contributions can be highlighted and become the basis for future journalism based on their own definition of “good”, ii) give moderators a sense of context about each commenter, and iii) help publishers understand the nature of commenter behavior on their site."   
 >Greg Barber [Our First Product](https://coralproject.net/first-product/)   
 
 #### User Stories     
 User stories are currently being developed based on needs analysis.   
-[Reputation analytics tool project page](placeholder.md)   
+[Reputation analytics tool project page](reputation-analytics-tool.md)   
 
 #### Wireframes
 Wireframes based on current needs analysis and user stories are currently being developed.     
-[Reputation analytics tool project page](placeholder.md)  
+[Reputation analytics tool project page](reputation-analytics-tool.md)  
 
 ##### Initial Admin Flow based on high level needs of Engagement Editor role.    
 ![Admin IA Flow - Engagement Editor](/images/Admin IA Initial Draft 1.0.1.png)
