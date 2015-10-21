@@ -27,7 +27,7 @@ The design process provides us with the appropriate techniques and tools to thor
  4. facilitate design thinking and understanding across the company.
 
 ##Design Process
-This is our design process and some of the activities required in each. While they are in sequential order, there is a lot of circling back when we come across new findings  When reaching out to help contribute with design, please let me know which area you would like to be involved in. 
+This is our design process and some of the activities required in each. While they are in sequential order, there is a lot of iterating back when we come across new findings.  
 
 **Stakeholder Interviews**  
 Gather requirements, research, KPI’s, and a wish list of features.  
@@ -51,7 +51,10 @@ Define the brand, identity, color palette and type.
 Planning and running cognitive evaluations around ease of use and learnability.  
 
 **User Testing**  
-Attitudinal and behavioral evaluations of hypotheses.  
+Attitudinal and behavioral evaluations of hypotheses.   
+
+
+When reaching out to help contribute with design, please let me know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
 
 
 #### Project Success
@@ -72,13 +75,20 @@ Project roadmap for initial phase of project.
 
 ## User Research
 #### Interviews
-Qualitative data gather over the past year from our conversations with more than 300 people in over 175 organizations from more than 25 countries.
+Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.  
+Task focused follow up interviews are currently being planned for our first product. 
 
-#### Needs Analysis
+
+#### Needs Analysis  
+Needs analysis based on interviews from the exploratory research phase.
 [Trello board with needs by role](https://trello.com/b/Dhrb4D74/coral-s-needs-public)
 
+#### Feature brainstorm  
+[Feature brainstorm](/images/placeholder-6x2.png)  
+
 #### Personas
-Personas are currently ongoing and will require a new set of interviews for validation and insight.
+Personas are currently ongoing and will require a new set of interviews for validation and insight.  
+[Personas project page](personas.md)
 
 ##### Target roles
 - Audience
@@ -89,7 +99,8 @@ Personas are currently ongoing and will require a new set of interviews for vali
 - Developer
 
 #### Journey Map and Mental Models
-Journey Map is currently ongoing based on qualitative data from interviews.
+Journey Map is currently ongoing based on qualitative data from interviews.  
+
 
 ##First Product
 > "Our first product is a reputational analytics tool that takes existing comment log data to give indicative reputational scores to publishers.
@@ -97,6 +108,12 @@ That information can then be used by publishers to i) identify their best commen
 
 Greg Barber [Our First Product](https://coralproject.net/first-product/)
 
+#### User Stories
+User stories are currently being developed based on needs analysis
+
 #### Wireframes
+Wireframes based on current needs analysis and user stories are currently being developed.
+[Reputation analytics tool project page](placeholder.md)  
+
 ##### Initial Admin Flow based on high level needs of Engagement Editor role.
 ![Admin IA Flow - Engagement Editor](/images/Admin IA Initial Draft 1.0.1.png)
