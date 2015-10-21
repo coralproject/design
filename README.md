@@ -15,7 +15,8 @@ This is the process  we employ across all design disciplines in order to properl
 
 ## Introduction
 
->  "People ignore design that ignores people."  Frank Chimero 
+>  "People ignore design that ignores people."  
+>  Frank Chimero    
 
 
 
@@ -51,15 +52,19 @@ Define the brand, identity, color palette and type.
 Planning and running cognitive evaluations around ease of use and learnability.  
 
 **User Testing**  
-Attitudinal and behavioral evaluations of hypotheses.      
+Attitudinal and behavioral evaluations of hypotheses.   
+
 ###### Hypothesis driven design process flow  
 1. Conceptualize *idea*.
 2. What *assumptions* can we make from this concept?
 3. Derive *hypothesis* from assumptions.
--- If **[action]** then **[outcome]** because **[user need/problem has been addressed]**  
+
+>  Hypothesis structure   
+>  If **[action]** then **[outcome]** because **[user need/problem has been addressed]**  
+
 4. Plan *experiment* to test hypothesis.
 5. Discuss *results* and present findings.
-6. Define *next* step.
+6. Define *next step*.
 
 When reaching out to help contribute with design, please let me know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
 
@@ -92,14 +97,14 @@ Needs analysis based on interviews from the exploratory research phase.
 
 
 #### Feature brainstorm   
-![Feature brainstorm](/images/placeholder-6x2.png)   
+![Feature brainstorm](/images/placeholder-12x4.png)   
 
 
 #### Personas
 Personas are currently ongoing and will require a new set of interviews for validation and insight.    
 [Personas project page](personas.md)   
 
-##### Target roles
+###### Target roles
 - Audience
 - Engagement Editor
 - Journalist
