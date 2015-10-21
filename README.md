@@ -20,7 +20,7 @@ This is the process  we employ across all design disciplines in order to properl
 
 
 
-The design process provides us with the appropriate techniques and tools to thoroughly assess the user's needs around a particular problem definition.  This is especially useful when we want to:
+The design process provides us with the appropriate techniques and tools to thoroughly assess the users' needs around a particular problem definition.  This is especially useful when we want to:
 
  1. make a decision based on observational or subjective data.
  2. gather behavioral and attitudinal insights from users.
@@ -34,22 +34,22 @@ This is our design process and some of the activities required in each. While th
 Gather requirements, research, KPI’s, and a wish list of features.  
 
 **User Research & Analysis**  
-Identify user needs, frustrations and behaviors through exploratory research and model them.  
+Identify user needs, frustrations and behaviors through exploratory research, and then model them.  
 
 **Information Architecture**  
-Define the navigation, taxonomy, terminology, metadata, findability and searchability.  
+Define the navigation, taxonomy, terminology, metadata, findability, and searchability.  
 
 **Interaction Design**   
-Create the interaction model, flows and prototypes.  
+Create the interaction model, flows, and prototypes.  
 
 **Content Strategy**   
-Content planning, development and management.   
+Content planning, development, and management.   
 
 **Visual Design**  
-Define the brand, identity, color palette and type.  
+Define the brand, identity, color palette, and type.  
 
 **Usability**  
-Planning and running cognitive evaluations around ease of use and learnability.  
+Planning and running cognitive evaluations around ease of use, and learnability.  
 
 **User Testing**  
 Attitudinal and behavioral evaluations of hypotheses.   
@@ -57,25 +57,25 @@ Attitudinal and behavioral evaluations of hypotheses.
 ###### Hypothesis driven design process flow  
 1. Conceptualize *idea*.
 2. What *assumptions* can we make from this concept?
-3. What *hypothesis* can we formulate from these assumptions.
+3. What *hypothesis* can we formulate from these assumptions?
 <blockquote>If **[action]** then **[outcome]** because **[user need/problem has been addressed]**</blockquote>    
-4. What *experiment* do we plan and conduct to test this hypothesis.
+4. What *experiment* do we plan and conduct to test this hypothesis?
 5. What did we *learn*?
 6. What will do *next*?
 
-When reaching out to help contribute with design, please let me know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
+When reaching out to help contribute with design, please let us know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
 
 
 #### Project Success
 
-1. Users distinct concerns are met with a personalized value proposition which is attractive and engaging. 
+1. Users' distinct concerns are met with a personalized value proposition which is attractive and engaging. 
 2. The platform is simple to understand and pleasing to use. 
 3. The platform accurately meets the goals of the users.
 
 #### Project Failure
 
 1. Users have not had their needs properly identified nor met. 
-2. The platform is unintuitive, cumbersome and adds complexity or frustration to their workflow.
+2. The platform is unintuitive, cumbersome, and adds complexity or frustration to their workflow.
 3. The platform fails to meet the goals of the users.
 
 #### Project Roadmap
@@ -85,12 +85,12 @@ Project roadmap for initial phase of project.
 ## User Research
 #### Interviews
 Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.  
-Task focused follow up interviews are currently being planned for our first product. 
 
+Task-focused follow-up interviews are currently being planned for our first product. 
 
 #### Needs Analysis  
 Needs analysis based on interviews from the exploratory research phase.   
-[Trello board](https://trello.com/b/Dhrb4D74/coral-s-needs-public)  with needs by role.  
+[Trello board](https://trello.com/b/Dhrb4D74/coral-s-needs-public) with needs by role.  
 
 
 #### Feature brainstorm   
@@ -107,7 +107,8 @@ Personas are currently ongoing and will require a new set of interviews for vali
 - Journalist
 - Moderator
 - Publisher
-- Developer   
+- Developer
+- Third-party Installer
 
 #### Journey Map and Mental Models    
 Journey Map is currently ongoing based on qualitative data from interviews.  
