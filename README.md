@@ -1,6 +1,6 @@
 # Design
 
-On **The Coral Project**, we are creating open-source tools and resources for publishers of all sizes to build better communities around their journalism.
+On *The Coral Project*, we are creating open-source tools and resources for publishers of all sizes to build better communities around their journalism.
 
 Throughout this process we will collect, support, and share practices, tools, techniques and studies to improve communities on the web.
 
@@ -57,15 +57,9 @@ Attitudinal and behavioral evaluations of hypotheses.
 ###### Hypothesis driven design process flow  
 1. Conceptualize *idea*.
 2. What *assumptions* can we make from this concept?
-<<<<<<< HEAD
 3. What *hypothesis* can we formulate from these assumptions?
-<blockquote>If **[action]** then **[outcome]** because **[user need/problem has been addressed]**</blockquote>    
-4. What *experiment* do we plan and conduct to test this hypothesis?
-=======
-3. What *hypothesis* can we formulate from these assumptions.   
 *e.g.* *If* **[action]** *then* **[outcome]** *because* **[user need/problem has been addressed]**    
-4. What *experiment* do we plan and conduct to test this hypothesis.
->>>>>>> ea6326cfd7ed63a02c5df1b72300b4e243b34dd0
+4. What *experiment* do we plan and conduct to test this hypothesis?
 5. What did we *learn*?
 6. What will do *next*?
 
@@ -88,15 +82,9 @@ When reaching out to help contribute with design, please let us know which area 
 Project roadmap for initial phase of project. 
 ![Project Roadmap 9.2015](/images/design-roadmap-phase-1.png)
 
-## User Research
-#### Interviews
-<<<<<<< HEAD
-Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.  
-=======
+## User Research   
+#### Interviews   
 Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.   
-
-Task focused follow up interviews are currently being planned for our first product. 
->>>>>>> ea6326cfd7ed63a02c5df1b72300b4e243b34dd0
 
 Task-focused follow-up interviews are currently being planned for our first product. 
 
