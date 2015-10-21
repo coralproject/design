@@ -58,8 +58,7 @@ Attitudinal and behavioral evaluations of hypotheses.
 1. Conceptualize *idea*.
 2. What *assumptions* can we make from this concept?
 3. What *hypothesis* can we formulate from these assumptions.
->  Hypothesis structure   
->  If **[action]** then **[outcome]** because **[user need/problem has been addressed]**  
+<blockquote>If **[action]** then **[outcome]** because **[user need/problem has been addressed]**</blockquote>    
 4. What *experiment* do we plan and conduct to test this hypothesis.
 5. What did we *learn*?
 6. What will do *next*?
