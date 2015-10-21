@@ -51,8 +51,15 @@ Define the brand, identity, color palette and type.
 Planning and running cognitive evaluations around ease of use and learnability.  
 
 **User Testing**  
-Attitudinal and behavioral evaluations of hypotheses.   
-
+Attitudinal and behavioral evaluations of hypotheses.      
+###### Hypothesis driven design process flow  
+1. Conceptualize *idea*.
+2. What *assumptions* can we make from this concept?
+3. Derive *hypothesis* from assumptions.
+-- If **[action]** then **[outcome]** because **[user need/problem has been addressed]**  
+4. Plan *experiment* to test hypothesis.
+5. Discuss *results* and present findings.
+6. Define *next* step.
 
 When reaching out to help contribute with design, please let me know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
 
@@ -80,16 +87,16 @@ Task focused follow up interviews are currently being planned for our first prod
 
 
 #### Needs Analysis  
-Needs analysis based on interviews from the exploratory research phase.  
+Needs analysis based on interviews from the exploratory research phase.   
 [Trello board](https://trello.com/b/Dhrb4D74/coral-s-needs-public)  with needs by role.  
 
 
-#### Feature brainstorm  
+#### Feature brainstorm   
 ![Feature brainstorm](/images/placeholder-6x2.png)   
 
 
 #### Personas
-Personas are currently ongoing and will require a new set of interviews for validation and insight.   
+Personas are currently ongoing and will require a new set of interviews for validation and insight.    
 [Personas project page](personas.md)   
 
 ##### Target roles
@@ -100,7 +107,7 @@ Personas are currently ongoing and will require a new set of interviews for vali
 - Publisher
 - Developer   
 
-#### Journey Map and Mental Models   
+#### Journey Map and Mental Models    
 Journey Map is currently ongoing based on qualitative data from interviews.  
 
 
@@ -110,12 +117,12 @@ That information can then be used by publishers to i) identify their best commen
 
 Greg Barber [Our First Product](https://coralproject.net/first-product/)
 
-#### User Stories
-User stories are currently being developed based on needs analysis
+#### User Stories     
+User stories are currently being developed based on needs analysis.
 
 #### Wireframes
-Wireframes based on current needs analysis and user stories are currently being developed.
+Wireframes based on current needs analysis and user stories are currently being developed.     
 [Reputation analytics tool project page](placeholder.md)  
 
-##### Initial Admin Flow based on high level needs of Engagement Editor role.
+##### Initial Admin Flow based on high level needs of Engagement Editor role.    
 ![Admin IA Flow - Engagement Editor](/images/Admin IA Initial Draft 1.0.1.png)
