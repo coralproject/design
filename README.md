@@ -80,15 +80,17 @@ Task focused follow up interviews are currently being planned for our first prod
 
 
 #### Needs Analysis  
-Needs analysis based on interviews from the exploratory research phase.
-[Trello board with needs by role](https://trello.com/b/Dhrb4D74/coral-s-needs-public)
+Needs analysis based on interviews from the exploratory research phase.  
+[Trello board](https://trello.com/b/Dhrb4D74/coral-s-needs-public)  with needs by role.  
+
 
 #### Feature brainstorm  
-[Feature brainstorm](/images/placeholder-6x2.png)  
+![Feature brainstorm](/images/placeholder-6x2.png)   
+
 
 #### Personas
-Personas are currently ongoing and will require a new set of interviews for validation and insight.  
-[Personas project page](personas.md)
+Personas are currently ongoing and will require a new set of interviews for validation and insight.   
+[Personas project page](personas.md)   
 
 ##### Target roles
 - Audience
@@ -96,9 +98,9 @@ Personas are currently ongoing and will require a new set of interviews for vali
 - Journalist
 - Moderator
 - Publisher
-- Developer
+- Developer   
 
-#### Journey Map and Mental Models
+#### Journey Map and Mental Models   
 Journey Map is currently ongoing based on qualitative data from interviews.  
 
 
