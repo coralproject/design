@@ -57,14 +57,14 @@ Attitudinal and behavioral evaluations of hypotheses.
 ###### Hypothesis driven design process flow  
 1. Conceptualize *idea*.
 2. What *assumptions* can we make from this concept?
-3. Derive *hypothesis* from assumptions.
+3. What *hypothesis* can we formulate from these assumptions.
 
 >  Hypothesis structure   
 >  If **[action]** then **[outcome]** because **[user need/problem has been addressed]**  
 
-4. Plan *experiment* to test hypothesis.
-5. Discuss *results* and present findings.
-6. Define *next step*.
+4. What *experiment* do we plan and conduct to test this hypothesis.
+5. What did we *learn*?
+6. What will do *next*?
 
 When reaching out to help contribute with design, please let me know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
 
