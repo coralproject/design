@@ -1,11 +1,11 @@
 # Site settings
 title: Style guide template
-email: jerome.coupe@webstoemp.com
-description: Style guide boilerplate with Jekyll
+email: angel@mozillafoundation.org
+description: Pattern Library
 baseurl: ""
-url: "http://www.webstoemp.com/jekyllstyleguide" # the base hostname & protocol for your site
-twitter_username: jeromecoupe
-github_username:  jeromecoupe
+url: "http://coralproject.github.io/design/pattern-library" # the base hostname & protocol for your site
+twitter_username: coralproject
+github_username:  coralproject
 
 # Collections
 collections:
