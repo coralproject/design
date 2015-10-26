@@ -16,7 +16,7 @@ paginate:            5
 author:              
   name:              Angel
   url:               https://github.com/coralproject/design/
-  email:             angelcolberg@gmail.com
+  email:             angel@mozillafoundation.org
 
 # Custom vars
 version:             1.0.0
