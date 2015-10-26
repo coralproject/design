@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Coral Project
+tagline:             '~'
+description:         'Design'
+url:                 https://github.com/coralproject/design/
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:              
+  name:              Angel
+  url:               https://github.com/coralproject/design/
+  email:             angelcolberg@gmail.com
+
+# Custom vars
+version:             1.0.0
+mygithub:            https://github.com/angelcolberg/
+repo:                angelcolberg.github.io

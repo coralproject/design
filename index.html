@@ -1,181 +1,38 @@
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>Style guide template</title>
-        <meta name="description" content="Pattern Library">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- favicon.ico and apple-touch-icon.png in root directory -->
-        <link rel="stylesheet" href="css/screen.css" media="screen">
-    </head>
-    <body>
-        <h1 class="sg-h1">Styleguide Template</h1>
+---
+layout: default
+title: Home
+---
 
-<p>Boilerplate for creating components based style guides using <a href="http://jekyllrb.com">Jekyll</a>. Here is the <a href="https://github.com/jeromecoupe/jekyllstyleguide">Github repository</a> for it, should you want to have a peek at the code, fork it or report an issue.</p>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}/{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-
-  <article class="sg-component">
-
-  <header class="sg-component__header">
-    <h2 class="sg-component__title">Buttons</h2>
-    <p class="sg-component__sass">Sass file: /_scss/components/buttons.scss</p>
-  </header>
-  <div class="sg-component__body">
-    <div class="sg-component__display">
-      <a href="fake.html" class="button">Button text</a>
-<button class="button">Button text</button>
-<input type="button" class="button" value="Button text">
-
-    </div>
-    <div class="sg-component__source">
-      <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;fake.html&quot;</span> <span class="na">class=</span><span class="s">&quot;button&quot;</span><span class="nt">&gt;</span>Button text<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;button&quot;</span><span class="nt">&gt;</span>Button text<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Button text&quot;</span><span class="nt">&gt;</span></code></pre></div>
-    </div>
+    {{ post.content }}
   </div>
-
-</article>
-
-
-  <article class="sg-component">
-
-  <header class="sg-component__header">
-    <h2 class="sg-component__title">Button group</h2>
-    <p class="sg-component__sass">Sass file: /_scss/components/buttons.scss</p>
-  </header>
-  <div class="sg-component__body">
-    <div class="sg-component__display">
-      <div class="button-group  clearfix">
-  <a href="fake.html" class="button">Button text</a>
-  <button class="button">Button text</button>
-  <input type="button" class="button" value="Button text">
+  {% endfor %}
 </div>
 
-    </div>
-    <div class="sg-component__source">
-      <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;button-group  clearfix&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;fake.html&quot;</span> <span class="na">class=</span><span class="s">&quot;button&quot;</span><span class="nt">&gt;</span>Button text<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;button&quot;</span><span class="nt">&gt;</span>Button text<span class="nt">&lt;/button&gt;</span>
-  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Button text&quot;</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div>
-    </div>
-  </div>
-
-</article>
-
-
-  <article class="sg-component">
-
-  <header class="sg-component__header">
-    <h2 class="sg-component__title">button sizes</h2>
-    <p class="sg-component__sass">Sass file: /_scss/components/buttons.scss</p>
-  </header>
-  <div class="sg-component__body">
-    <div class="sg-component__display">
-      <a href="fake.html" class="button  button--large">Button text</a>
-<button class="button  button--small">Button text</button>
-
-    </div>
-    <div class="sg-component__source">
-      <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;fake.html&quot;</span> <span class="na">class=</span><span class="s">&quot;button  button--large&quot;</span><span class="nt">&gt;</span>Button text<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;button  button--small&quot;</span><span class="nt">&gt;</span>Button text<span class="nt">&lt;/button&gt;</span></code></pre></div>
-    </div>
-  </div>
-
-</article>
-
-
-  <article class="sg-component">
-
-  <header class="sg-component__header">
-    <h2 class="sg-component__title">Headings</h2>
-    <p class="sg-component__sass">Sass file: /_scss/base/typography.scss</p>
-  </header>
-  <div class="sg-component__body">
-    <div class="sg-component__display">
-      <h1>This is a level one heading</h1>
-<h2>This is a level two heading</h2>
-<h3>This is a level three heading</h3>
-<h4>This is a level four heading</h4>
-<h5>This is a level five heading</h5>
-<h6>This is a level six heading</h6>
-
-    </div>
-    <div class="sg-component__source">
-      <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>This is a level one heading<span class="nt">&lt;/h1&gt;</span>
-<span class="nt">&lt;h2&gt;</span>This is a level two heading<span class="nt">&lt;/h2&gt;</span>
-<span class="nt">&lt;h3&gt;</span>This is a level three heading<span class="nt">&lt;/h3&gt;</span>
-<span class="nt">&lt;h4&gt;</span>This is a level four heading<span class="nt">&lt;/h4&gt;</span>
-<span class="nt">&lt;h5&gt;</span>This is a level five heading<span class="nt">&lt;/h5&gt;</span>
-<span class="nt">&lt;h6&gt;</span>This is a level six heading<span class="nt">&lt;/h6&gt;</span></code></pre></div>
-    </div>
-  </div>
-
-</article>
-
-
-  <article class="sg-component">
-
-  <header class="sg-component__header">
-    <h2 class="sg-component__title">Texts</h2>
-    <p class="sg-component__sass">Sass file: /_scss/base/typography.scss</p>
-  </header>
-  <div class="sg-component__body">
-    <div class="sg-component__display">
-      <h1>Level one title</h1>
-<div class="text-big">
-  <p>Large text (21px) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt veritatis sequi nobis earum dicta vero impedit esse at, debitis doloremque eius inventore qui, et dolores eaque eos iste repellendus non.</p>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>
-<h2>Level two title</h2>
-<p>Default text (16px) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<ul>
-  <li>list item</li>
-  <li>list item</li>
-  <li>list item</li>
-</ul>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<ol>
-  <li>list item</li>
-  <li>list item</li>
-  <li>list item</li>
-</ol>
-<p class="text-small">Small text (14px) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-    </div>
-    <div class="sg-component__source">
-      <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>Level one title<span class="nt">&lt;/h1&gt;</span>
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;text-big&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;p&gt;</span>Large text (21px) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt veritatis sequi nobis earum dicta vero impedit esse at, debitis doloremque eius inventore qui, et dolores eaque eos iste repellendus non.<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;h2&gt;</span>Level two title<span class="nt">&lt;/h2&gt;</span>
-<span class="nt">&lt;p&gt;</span>Default text (16px) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;ul&gt;</span>
-  <span class="nt">&lt;li&gt;</span>list item<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>list item<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>list item<span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;p&gt;</span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;ol&gt;</span>
-  <span class="nt">&lt;li&gt;</span>list item<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>list item<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>list item<span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ol&gt;</span>
-<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-small&quot;</span><span class="nt">&gt;</span>Small text (14px) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="nt">&lt;/p&gt;</span></code></pre></div>
-    </div>
-  </div>
-
-</article>
-
-
-
-
-
-
-
-
-
-    </body>
-</html>
