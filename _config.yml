@@ -9,7 +9,7 @@ title:               Coral Project
 tagline:             '~'
 description:         'Design'
 url:                 https://github.com/coralproject/design/
-baseurl:             'https://github.com/coralproject/design/'
+baseurl:             'https://github.com/coralproject/design'
 paginate:            5
 
 # About/contact
