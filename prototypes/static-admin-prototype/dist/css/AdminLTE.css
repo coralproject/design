@@ -304,7 +304,7 @@ a:focus {
   display: block;
 }
 .main-header .logo .logo-mini {
-  display: none;
+  display: block;
 }
 .main-header .navbar-brand {
   color: #fff;
@@ -668,6 +668,15 @@ a:focus {
   }
   .sidebar-mini.sidebar-collapse .main-header .navbar {
     margin-left: 50px;
+  }
+  .sidebar-mini .main-header .logo > .logo-lg {
+    display: block;
+    background-image: url(../img/logos/coralLogoMark-1.5.white.png);
+    background-size: 30px 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 50px;
+    text-indent: 35px;
   }
 }
 .sidebar-menu,
