@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>user1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20.0313825" cy="20.0313825" r="20.0313825"></circle>
+        <path id="path-3" d="M4,1.7500762 C5.296009,0.486601332 10.3636364,5.33462163e-14 10.3636364,5.33462163e-14 L10.3636364,1.16671746 C10.3636364,2.93866961 11.9916667,4.37519049 14,4.37519049 C16.0083333,4.37519049 17.6363636,2.93866961 17.6363636,1.16671746 L17.6363636,5.33462163e-14 C17.6363636,5.33462163e-14 20,-7.19334103e-09 24,1.7500762 C30,8.10347462 29,8.10347462 29,8.10347462 L0,10.1034746 C0,10.1034746 2.703991,3.01355106 4,1.7500762 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="user1" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" sketch:name="Oval 7" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Oval-7" stroke="#9FD563" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <g id="Oval-7-+-Group-+-Oval-8" mask="url(#mask-2)">
+                <g transform="translate(6.000000, 5.000000)">
+                    <path d="M14.5,26 C21.9558441,26 28,20.1797017 28,13 C28,5.82029825 21.9558441,0 14.5,0 C7.04415588,0 1,5.82029825 1,13 C1,20.1797017 7.04415588,26 14.5,26 Z" id="Oval-7" fill="#4A4A4A" sketch:type="MSShapeGroup"></path>
+                    <g id="Group" stroke-width="1" fill="none" sketch:type="MSLayerGroup" transform="translate(0.000000, 11.000000)">
+                        <rect id="Rectangle-path" fill="#A08B6A" sketch:type="MSShapeGroup" x="10.3636364" y="11.8130143" width="7.27272727" height="16.3340445"></rect>
+                        <path d="M14,14.2922889 C17.5416667,14.2922889 21.5757576,11.6918215 21.5757576,10.2087778 C21.5757576,8.72558824 22.1818182,0.583358732 22.1818182,0.583358732 C22.2989394,-0.297075434 5.81818182,0.145839683 5.81818182,0.145839683 C5.81818182,0.145839683 6.42424242,8.87594895 6.42424242,10.2087778 C6.42424242,11.5416067 10.4583333,14.2922889 14,14.2922889 Z" id="Shape" fill="#A08B6A" sketch:type="MSShapeGroup"></path>
+                        <path d="M15.4141414,6.49586434 C15.4141414,6.49586434 15.7264646,7 16.2222222,7 C16.7179798,7 17.030303,6.49586434 17.030303,6.49586434" id="Shape-Copy-5" stroke="#4A4A4A" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                        <path d="M9.75757576,6.49586434 C9.75757576,6.49586434 10.069899,7 10.5656566,7 C11.0614141,7 11.3737374,6.49586434 11.3737374,6.49586434" id="Shape-Copy-4" stroke="#4A4A4A" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                        <g transform="translate(0.000000, 15.896525)" id="Oval">
+                            <g>
+                                <mask id="mask-4" sketch:name="Mask" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Mask" fill="#F6A623" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                                <path d="M14,5.68774764 C16.3430262,5.68774764 18.2424242,3.79420278 18.2424242,1.45839683 C18.2424242,-0.877409122 16.3430262,-2.77095398 14,-2.77095398 C11.6569738,-2.77095398 9.75757576,-0.877409122 9.75757576,1.45839683 C9.75757576,3.79420278 11.6569738,5.68774764 14,5.68774764 Z" opacity="0.4" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <ellipse id="Oval-8" fill="#4A4A4A" sketch:type="MSShapeGroup" cx="14.5" cy="11.5" rx="9.5" ry="2.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
