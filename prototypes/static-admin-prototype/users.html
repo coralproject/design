@@ -1,0 +1,252 @@
+<style>
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background: #f77160;
+    z-index: 90;
+}
+nav.submenu {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  -webkit-transform-origin: left;
+  -moz-transform-origin: left;
+  -o-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
+  position: absolute;
+  
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 0;
+}
+.rotate nav.submenu > ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  -moz-transition: -moz-transform 0.25s ease-out;
+  -o-transition: -o-transform 0.25s ease-out;
+  -ms-transition: -ms-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  border-left: 10px solid #f8b5c2;
+  background: #dc143c;
+  width: 200px;
+}
+.slider nav.submenu > ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    z-index: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  -moz-transition: -moz-transform 0.25s ease-out;
+  -o-transition: -o-transform 0.25s ease-out;
+  -ms-transition: -ms-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  border-left: 10px solid #f8b5c2;
+  background: #dc143c;
+  width: 200px;
+}
+ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  list-style: none;
+  padding: 120px 0 0 0;
+  margin: 0;
+    z-index: 101;
+}
+ul li a {
+  font: lighter 12px 'PT Sans Narrow', Lato, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  padding: 15px 20px;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px #ee4567;
+  box-shadow: 0 1px #ee4567;
+  white-space: nowrap;
+}
+ul li:hover {
+  background: #f8b5c2;
+}
+ul li:hover > a {
+  color: #a50f2d;
+}
+ul li:hover > nav.submenu {
+  
+  z-index: 0;
+  -webkit-transition: -webkit-transform 0.25s ease-in;
+  -moz-transition: -moz-transform 0.25s ease-in;
+  -o-transition: -o-transform 0.25s ease-in;
+  -ms-transition: -ms-transform 0.25s ease-in;
+  transition: transform 0.25s ease-in;
+}
+.rotate ul li:hover > nav.submenu > ul {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.slider ul li:hover > nav.submenu > ul {
+  -webkit-transform: translateX(200px);
+  -moz-transform: translateX(200px);
+  -o-transform: translateX(200px);
+  -ms-transform: translateX(200px);
+  transform: translateX(200px);
+}
+ul li.sub > a {
+  position: relative;
+  0: 0;
+}
+ul li.sub > a:after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-width: 5px 0 5px 5px;
+  border-color: transparent #fff;
+  border-style: solid;
+}
+ul li.sub:hover > a:after {
+  border-color: transparent #a50f2d;
+}
+.logo {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  margin: -60px 0 0 -60px;
+  width: 80px;
+  height: 80px;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  cursor: pointer;
+}
+.logo:before,
+.logo:after {
+  font: lighter 12px Lato, sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.logo:hover {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.content {
+  margin-left: 200px;
+  padding: 0 25px;
+}
+.content h1 {
+  font: 300 52px Oswald, sans-serif;
+  margin: 0;
+  padding: 20px 0 10px;
+  line-height: 80px;
+}
+.content p {
+  font: lighter 18px/22px 'PT Sans Narrow', serif;
+}
+
+</style>
+<div class="wrapper slider">
+  <nav>
+    <div class="logo">
+      
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li class="sub"><a href="#">Portfolio</a>
+       
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+       <nav class="submenu">
+          <ul>
+            <li class="sub"><a href="#">Graphics</a>
+              
+            </li>
+            <li class="sub"><a href="#">Programming</a>
+              
+            </li>
+            <li class="sub"><a href="#">Photography</a>
+              
+            </li>
+          </ul>
+        </nav>
+  </nav>
+  <div class="content">
+    <h1>Multi-Level Navigation</h1>
+    <p>This is an idea I've wanted to try for a while.</p>
+    <p></p>
+  </div>
+</div>
