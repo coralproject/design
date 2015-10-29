@@ -1,4 +1,4 @@
-$(".content").load("_dashboard.html");
+$(".content").load("../../../dashboard.html");
 $(".knob").knob();
 $(function () {
     
