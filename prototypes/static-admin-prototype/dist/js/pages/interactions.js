@@ -1,10 +1,5 @@
 
 
-$(function () {
-    
-     
-    
-  'use strict';
    
     $(".content").load("dashboard.html");
     
@@ -64,4 +59,3 @@ $(function () {
     
     
 
-});
