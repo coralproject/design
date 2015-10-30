@@ -343,21 +343,16 @@ a:focus {
 }
 .content-header > h1 > small {
   font-size: 15px;
-  display: inline-block;
-  padding-left: 4px;
+  display: block;
   font-weight: 300;
+  margin: 0.5em auto;
 }
 .content-header > .breadcrumb {
-  float: right;
   background: transparent;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 12px;
   padding: 7px 5px;
-  position: absolute;
-  top: 15px;
-  right: 10px;
-  border-radius: 2px;
 }
 .content-header > .breadcrumb > li > a {
   color: #444;
