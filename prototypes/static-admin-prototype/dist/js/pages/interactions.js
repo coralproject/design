@@ -1,11 +1,12 @@
-$(".content").load("dashboard.html");
+
 
 $(function () {
     
      
     
   'use strict';
-    
+   
+    $(".content").load("dashboard.html");
     
     
     $(".knob").knob({
@@ -19,9 +20,9 @@ $(function () {
                     cancel : function () {
                         console.log("cancel : ", this);
                     },
-                    /*format : function (value) {
+                    format : function (value) {
                         return value + '%';
-                    },*/
+                    },
                     draw : function () {
 
                         // "tron" case
