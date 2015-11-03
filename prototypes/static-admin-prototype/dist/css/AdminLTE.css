@@ -3016,7 +3016,7 @@ table.text-center th {
   height: 250px;
   width: 100%;
   background: #fff;
-  color: #fff;
+  color: #444;
   overflow: auto;
 }
 
@@ -3079,14 +3079,20 @@ table.text-center th {
 .settings-menu {
   box-shadow: none;
   border-color: #eee;
-    width: 250px;
-    margin: 0;
+    width: 50%;
+    margin: 20px 0 0 0;
     padding 0;
     
+}
+.settings-menu li, .settings-menu .menu li {
+    list-style: none;
+    
+    padding: 2em auto;    
 }
 .settings-menu > li > a {
   color: #777;
   font-size: 1em;
+
 }
 .settings-menu > li > a > .glyphicon,
 .settings-menu > li > a > .fa,
@@ -3099,8 +3105,16 @@ table.text-center th {
 }
 .settings-menu > .divider {
   background-color: #eee;
+    height: 1px;
+    padding: 0;
 }
-.settings-menu > li > .header
+.settings-menu > li.header {
+    color: #444;
+    font-size: 14px;
+    text-transform:  uppercase;
+    font-weight: 700;
+    padding: 2.5em auto;
+}
 /*
  * Component: Users List
  * ---------------------
