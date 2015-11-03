@@ -721,6 +721,8 @@ a:focus {
   top: 50%;
   margin-top: -7px;
 }
+
+
 /*
  * Component: Control sidebar. By default, this is the right sidebar.
  */
@@ -944,6 +946,7 @@ a:focus {
 .control-sidebar-light .control-sidebar-menu > li > a .menu-info > p {
   color: #5e5e5e;
 }
+
 /*
  * Component: Dropdown menus
  * -------------------------
@@ -1566,11 +1569,12 @@ a:focus {
   position: relative;
   border-radius: 3px;
   background: #ffffff;
-  border-top: 3px solid #d2d6de;
+  /*border-top: 3px solid #d2d6de;*/
   margin-bottom: 20px;
   width: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
+
 .box.box-primary {
   border-top-color: #3c8dbc;
 }
@@ -1586,8 +1590,8 @@ a:focus {
 .box.box-success {
   border-top-color: #00a65a;
 }
-.box.box-default {
-  border-top-color: #d2d6de;
+.box.box-default, .box.box-white {
+  border-top-color: #fff;
 }
 .box.collapsed-box .box-body,
 .box.collapsed-box .box-footer {
@@ -2887,11 +2891,11 @@ table.text-center th {
 .contacts-list-status {
   font-size: 12px;
 }
-.contacts-list-date {
+.contacts-list-date  {
   color: #aaa;
   font-weight: normal;
 }
-.contacts-list-msg {
+.contacts-list-msg  {
   color: #999;
 }
 .direct-chat-danger .right > .direct-chat-text {
@@ -2938,6 +2942,146 @@ table.text-center th {
 .direct-chat-success .right > .direct-chat-text:after,
 .direct-chat-success .right > .direct-chat-text:before {
   border-left-color: #00a65a;
+}
+
+
+/*
+*
+* Component: Module Settings Panel
+*
+*/
+
+.with-settings .box-body {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+  overflow-x: hidden;
+  padding: 0;
+}
+.with-settings.settings-panel-open .settings-panel {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.dummy-content /* .dummy-content is for demo purposes atm */ {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  padding: 10px;
+  height: 250px;
+  overflow: auto;
+}
+
+.settings-panel,
+.dummy-content {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.settings-panel-open .settings-panel {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.settings-panel {
+  -webkit-transform: translate(101%, 0);
+  -ms-transform: translate(101%, 0);
+  -o-transform: translate(101%, 0);
+  transform: translate(101%, 0);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 250px;
+  width: 100%;
+  background: #fff;
+  color: #fff;
+  overflow: auto;
+}
+
+
+
+.settings-panel > li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 0;
+}
+ 
+.settings-panel > li:before,
+.settings-panel > li:after {
+  content: " ";
+  display: table;
+}
+
+.settings-panel > li:after {
+  clear: both;
+}
+
+.settings-panel > li:last-of-type {
+  border-bottom: none;
+}
+
+.settings-list-img {
+  border-radius: 50%;
+  width: 40px;
+  float: left;
+}
+
+.settings-list-info {
+  margin-left: 45px;
+  
+}
+
+.settings-list-name,
+.settings-list-status {
+  display: block;
+}
+
+.settings-list-name {
+  font-weight: 600;
+}
+
+.settings-list-status {
+  font-size: 12px;
+}
+
+.settings-list-status  {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.settings-list-msg  {
+  color: #999;
+}
+
+/* settings menu  */
+.settings-menu {
+  box-shadow: none;
+  border-color: #eee;
+    width: 250px;
+    margin: 0;
+    padding 0;
+    
+}
+.settings-menu > li > a {
+  color: #777;
+  font-size: 1em;
+}
+.settings-menu > li > a > .glyphicon,
+.settings-menu > li > a > .fa,
+.settings-menu > li > a > .ion {
+  margin-right: 10px;
+}
+.settings-menu > li > a:hover {
+  background-color: #e1e3e9;
+  color: #333;
+}
+.settings-menu > .divider {
+  background-color: #eee;
 }
 /*
  * Component: Users List
@@ -4353,6 +4497,10 @@ table.text-center th {
 }
 .description-block > .description-text {
   text-transform: uppercase;
+}
+.bg-white {  
+  color: #444;
+  background-color: #fff !important;  
 }
 .bg-red,
 .bg-yellow,

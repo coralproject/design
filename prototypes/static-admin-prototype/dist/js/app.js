@@ -93,6 +93,13 @@ $.AdminLTE.options = {
       collapse: '[data-widget="collapse"]'
     }
   },
+  //Settings plugin options 
+  settingsPanel: {
+    //Enable settings by default
+    enable: true,
+    //The button to open and close the settings pane
+    settingsToggleSelector: '[data-widget="settings-pane-toggle"]'
+  },
   //Direct Chat plugin options
   directChat: {
     //Enable direct chat by default
@@ -102,6 +109,7 @@ $.AdminLTE.options = {
   },
   //Define the set of colors to use globally around the website
   colors: {
+    coral:  "#f77160",
     lightBlue: "#3c8dbc",
     red: "#f77160",
     green: "#00a65a",
@@ -197,7 +205,14 @@ $(function () {
   if (o.enableFastclick && typeof FastClick != 'undefined') {
     FastClick.attach(document.body);
   }
-
+  //Activate settings panel widget
+  if (o.settingsPanel.enable) {
+      alert()
+    $(document).on('click', o.settingsPanel.settingsToggleSelector, function ($(this).parents('.with-settings').first();) {
+      var box = $(this).parents('.with-settings').first();
+      box.toggleClass('settings-panel-open');
+    });
+  }
   //Activate direct chat widget
   if (o.directChat.enable) {
     $(document).on('click', o.directChat.contactToggleSelector, function () {
