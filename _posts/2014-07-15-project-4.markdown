@@ -4,8 +4,8 @@ subtitle: UX
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: placeholder.png
+thumbnail: placeholder-thumbnail.png
 alt: image-alt
 project-date: October 2015
 designer: Angel
