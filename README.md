@@ -66,6 +66,9 @@ Attitudinal and behavioral evaluations of hypotheses.
 When reaching out to help contribute with design, please let us know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
 
 
+
+
+
 #### Project Success
 
 1. Users' distinct concerns are met with a personalized value proposition which is attractive and engaging. 
@@ -82,6 +85,7 @@ When reaching out to help contribute with design, please let us know which area 
 Project roadmap for initial phase of project. 
 ![Project Roadmap 9.2015](/images/design-roadmap-phase-1.png)
 
+
 ## User Research   
 #### Interviews   
 Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.   
@@ -94,7 +98,11 @@ Needs analysis based on interviews from the exploratory research phase.
 
 
 #### Feature brainstorm   
+
+![Feature brainstorm](img/process/placeholder-12x4.png)   
+
 ![Feature brainstorm](/images/placeholder-12x4.png)   
+
 
 
 #### Personas
@@ -128,4 +136,10 @@ Wireframes based on current needs analysis and user stories are currently being 
 [Reputation analytics tool project page](reputation-analytics-tool.md)  
 
 ##### Initial Admin Flow based on high level needs of Engagement Editor role.    
+
+<a href="#iterationsModal-IA1" class="iterations-link" data-toggle="modal">
+![Admin IA Flow - Engagement Editor](img/process/Admin-IA-Initial-Draft-1.0.1-small.png)
+</a>
+
 ![Admin IA Flow - Engagement Editor](/images/Admin IA Initial Draft 1.0.1.png)
+

@@ -1,0 +1,68 @@
+
+url: https://coralproject.github.com/design/
+baseurl: /design
+
+# Site settings
+title: Coral Project Design
+email: angel@mozillafoundation.org
+description: "Coral Project design process and documentation"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: f77160
+  secondary: fff  
+  secondary-dark: 333
+  tertiary: 666
+
+# Team names, titles and social links
+people:
+- name: Angel Colberg
+  pic: 1
+  position: Design Lead
+  social:
+    - title: twitter
+      url: https://twitter.com/angelcolberg
+    - title: github
+      url: https://github.com/angelcolberg
+    - title: behance
+      url: https://behance.net/angelcolberg
+    - title: dribbble
+      url: https://dribbble.com/angelcolberg
+
+- name: Some Person
+  pic: 2
+  position: User Research
+  social:
+
+
+- name: Some Person
+  pic: 3
+  position: Visual Design
+  social:
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/coralproject
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: 
+  - title: bitbucket 
+    url: 
+  - title: github
+    url: http://github.com/coralproject
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: New York, Washington D.C., San Francisco
+ 
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+
+
