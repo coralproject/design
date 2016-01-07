@@ -102,8 +102,7 @@ Needs analysis based on interviews from the exploratory research phase.
 
 
 #### Feature brainstorm   
-
-![Feature brainstorm](img/process/placeholder-12x4.png)   
+ 
 
 ![Feature brainstorm](/images/placeholder-12x4.png)   
 
@@ -141,9 +140,7 @@ Wireframes based on current needs analysis and user stories are currently being 
 
 ##### Initial Admin Flow based on high level needs of Engagement Editor role.    
 
-<a href="#iterationsModal-IA1" class="iterations-link" data-toggle="modal">
-![Admin IA Flow - Engagement Editor](img/process/Admin-IA-Initial-Draft-1.0.1-small.png)
-</a>
+
 
 ![Admin IA Flow - Engagement Editor](/images/Admin IA Initial Draft 1.0.1.png)
 
