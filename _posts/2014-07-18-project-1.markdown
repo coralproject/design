@@ -1,6 +1,6 @@
 ---
-title: Logo
-subtitle: Brand
+title: Brand
+subtitle: Logo
 layout: default
 modal-id: 1
 date: 2014-07-18

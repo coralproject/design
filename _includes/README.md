@@ -1,3 +1,7 @@
+---
+layout: page.html
+
+---
 # Design
 
 On *The Coral Project*, we are creating open-source tools and resources for publishers of all sizes to build better communities around their journalism.
