@@ -14,7 +14,18 @@ color:
   secondary: fff 
   secondary-dark: 3d3d3d
  
-
+# Artifacts
+artifacts: 
+- name: Some Document
+  link: /img/map-image.png
+  type: Image
+  description: "Some description"
+  
+- name: Some Document
+  link: /img/map-image.png
+  type: Image
+  description: "Some description"
+  
 # Team names, titles and social links
 people:
 - name: Angel Colberg

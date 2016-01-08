@@ -72,7 +72,34 @@ h6 {
 .bg-darkest-gray {
     background-color: #222;
 }
-
+.bg-light-brown {
+    background-color: #F1EBE0;
+}
+.bg-dark-brown {
+    background-color: #E9E4DA;
+}
+.intro-icon {
+   display: block;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 120px;
+    width: 120px;
+    position:  absolute;
+    z-index: 999;
+}
+.intro-icon.read {
+    background-image: url(img/readme/icon-read.png); 
+}
+.intro-icon.experiment {
+    background-image: url(img/readme/icon-flask.png); 
+}
+.intro-icon.speak {
+    background-image: url(img/readme/icon-mic.png); 
+}
+.intro-icon.code {
+    background-image: url(img/readme/icon-code.png); 
+}
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
@@ -118,7 +145,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary .badge {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
     background-color: #fff;
 }
 
@@ -349,6 +376,11 @@ fieldset[disabled] .btn-xl.active {
 .footer-logo {
     max-width: 100px;
 }
+
+
+
+
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -390,6 +422,11 @@ fieldset[disabled] .btn-xl.active {
         
     }
 }
+
+
+
+
+
 
 header {
     text-align: center;
