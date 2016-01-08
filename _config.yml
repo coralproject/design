@@ -10,9 +10,10 @@ description: "Coral Project design process and documentation"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: f77160
-  secondary: fff  
-  secondary-dark: 333
-  tertiary: 666
+  primary-dark: f55440
+  secondary: fff 
+  secondary-dark: 3d3d3d
+ 
 
 # Team names, titles and social links
 people:

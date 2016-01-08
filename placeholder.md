@@ -1,1 +1,3 @@
-Placeholder page
+# Placeholder
+
+![Placeholder Image](/images/placeholder.png)

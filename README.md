@@ -1,7 +1,4 @@
----
-layout: page.html
 
----
 # Design
 
 On *The Coral Project*, we are creating open-source tools and resources for publishers of all sizes to build better communities around their journalism.
@@ -58,36 +55,11 @@ Planning and running cognitive evaluations around ease of use, and learnability.
 **User Testing**  
 Attitudinal and behavioral evaluations of hypotheses.   
 
-###### Hypothesis driven design process flow  
-1. Conceptualize *idea*.
-2. What *assumptions* can we make from this concept?
-3. What *hypothesis* can we formulate from these assumptions?
-*e.g.* *If* **[action]** *then* **[outcome]** *because* **[user need/problem has been addressed]**    
-4. What *experiment* do we plan and conduct to test this hypothesis?
-5. What did we *learn*?
-6. What will do *next*?
+
 
 When reaching out to help contribute with design, please let us know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
 
 
-
-
-
-#### Project Success
-
-1. Users' distinct concerns are met with a personalized value proposition which is attractive and engaging. 
-2. The platform is simple to understand and pleasing to use. 
-3. The platform accurately meets the goals of the users.
-
-#### Project Failure
-
-1. Users have not had their needs properly identified nor met. 
-2. The platform is unintuitive, cumbersome, and adds complexity or frustration to their workflow.
-3. The platform fails to meet the goals of the users.
-
-#### Project Roadmap
-Project roadmap for initial phase of project. 
-![Project Roadmap 9.2015](/images/design-roadmap-phase-1.png)
 
 
 ## User Research   
@@ -123,6 +95,15 @@ Personas are currently ongoing and will require a new set of interviews for vali
 
 #### Journey Map and Mental Models    
 Journey Map is currently ongoing based on qualitative data from interviews.  
+
+###### Hypothesis driven design process flow  
+1. Conceptualize *idea*.
+2. What *assumptions* can we make from this concept?
+3. What *hypothesis* can we formulate from these assumptions?
+*e.g.* *If* **[action]** *then* **[outcome]** *because* **[user need/problem has been addressed]**    
+4. What *experiment* do we plan and conduct to test this hypothesis?
+5. What did we *learn*?
+6. What will do *next*?
 
 
 ## First Product

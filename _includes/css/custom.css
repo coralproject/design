@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-family: "Fira Sans",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
 }
 
@@ -43,7 +43,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary-dark }};
 }
 
 h1,
@@ -53,8 +53,10 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab", Arial, sans-serif;
-    font-weight: 700;
+    font-family: "Fira Sans", Arial, sans-serif;
+    font-weight: 300;
+    color: #{{ site.color.secondary-dark }};
+   
 }
 .img-circle img {
     -webkit-transform: scale(1.5);
@@ -74,7 +76,7 @@ h6 {
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
-    font-family: "Josefin Slab", Arial, sans-serif;
+    font-family: "Fira Sans", Arial, sans-serif;
     font-weight: 700;
     color: #{{ site.color.secondary }};
     background-color: #{{ site.color.primary }};
@@ -125,7 +127,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: "Josefin Slab", Arial, sans-serif;
+    font-family: "Fira Sans", Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #{{ site.color.primary }};
@@ -163,8 +165,8 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.color.tertiary }};
-    background-color: #{{ site.color.tertiary }};
+    border-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary-dark }};
     color: #{{ site.color.secondary }};
 }
 
@@ -173,9 +175,32 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+#tabzilla {
+    top: -1px;
+    right: 50px;
+    display: block;
+    background-image: url(img/tabzilla/tab-link-white.png);
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 150px;
+    position: absolute;
+    text-indent: -2000px;
+    z-index: 9999;
+}
+
 .navbar-default {
     border-color: transparent;
-    background-color: transparent;
+    background-attachment: scroll;
+    background: rgba(247,113,96,0.8);
+        
+    background: -moz-linear-gradient(top, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,114,96,1)), color-stop(100%, rgba(252,149,70,1)));
+    background: -webkit-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
+    background: -o-linear-gradient(top, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
+    background: -ms-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
+    background: linear-gradient(to right, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f77260', endColorstr='#fc9546', GradientType=1 );
 }
 
 .navbar-default .navbar-brand {
@@ -186,8 +211,8 @@ fieldset[disabled] .btn-xl.active {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
-    width: 15em;
-    height: 60px;
+    width: 13em;
+    height: 80px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -236,50 +261,21 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #{{ site.color.secondary }};
-    /*
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    transform: scale(1.15);
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);*/
     
 }
 
 .navbar-default .navbar-nav>.active>a {
-    /*
-    border-radius: 0;
-    color: #{{ site.color.primary }};
-    background-color: #{{ site.color.secondary }};
-    
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    transform: scale(1.15);
-    font-weight: 700;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);*/
+
     position: relative;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    /*
-    color: #{{ site.color.primary }};
-    background-color: #{{ site.color.secondary }};
-    
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    transform: scale(1.15);*/
     background-color: transparent;
 }
 
 
-/* overline effect 
-.navbar-default .nav li a::after {
-   background: rgba(255,255,255,0.6); 
-}
-.navbar-default .navbar-nav>.active>a::after,
-.navbar-default .navbar-nav>a::after{
-  background: rgba(255,255,255,1);
-}
-*/
+/* overline effect */
 .navbar-default .nav li a::after {
 	position: absolute;
 	top: 100%;
@@ -306,7 +302,7 @@ fieldset[disabled] .btn-xl.active {
 	transform: translateY(0px);
 }
 
-/* Effect 5: same word slide in */
+/* same word slide in */
 .navbar-default .navbar-nav li:not(.active) a {
 	overflow: hidden;
 	
@@ -337,8 +333,22 @@ fieldset[disabled] .btn-xl.active {
 	transform: translateY(-100%);
 }
 
-
-
+.copyright {
+    text-align: left;
+    padding: 2em 5.55%;
+    margin: 3em auto 8em;
+    font-size: 0.813em;
+}
+.copyright .copy {
+    float: left;
+    width: 25%;
+    margin-right: 2em;
+    display: inline-block;
+    
+}
+.footer-logo {
+    max-width: 100px;
+}
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -351,29 +361,19 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand {
         font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+        -webkit-transition: width .3s;
+        -moz-transition: width .3s;
+        transition: width .3s;
     }
 
     .navbar-default .navbar-nav>.active>a {
        background-color: transparent;
-    /* border-radius: 3px; */
     }
 
     .navbar-default.navbar-shrink {
         padding: 0;
         
-    background-attachment: scroll;
-    background: rgba(247,113,96,0.8);
-        
-    background: -moz-linear-gradient(top, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,114,96,1)), color-stop(100%, rgba(252,149,70,1)));
-    background: -webkit-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
-    background: -o-linear-gradient(top, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
-    background: -ms-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
-    background: linear-gradient(to right, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f77260', endColorstr='#fc9546', GradientType=1 );
+
         
        /* background-color: rgba(247,113,96,0.8);*/
         -webkit-transition: all .3s;
@@ -386,7 +386,7 @@ fieldset[disabled] .btn-xl.active {
         
     }
     .navbar-default.navbar-shrink .navbar-brand {
-        width: 10em;
+        width: 11em;
         
     }
 }
@@ -1015,4 +1015,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+@media(max-width:700px) {
+    .navbar-default .navbar-brand {
+        background-image: url("/design/img/logos/coralLogoMark-1.5.white.png");
+        background-size: auto 2em;
+        margin-left: 1em;
+    }
 }
