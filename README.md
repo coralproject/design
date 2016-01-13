@@ -1,5 +1,5 @@
 
-# Design
+# The Coral Project
 
 On *The Coral Project*, we are creating open-source tools and resources for publishers of all sizes to build better communities around their journalism.
 
@@ -12,14 +12,11 @@ This is the process  we employ across all design disciplines in order to properl
 1. Introduction
 2. [Design Process](process.md)
 3. [User Research](personas.md)
-4. [First Product](project-trust.md)
+4. [Roadmap](roadmap.md)
+5. [First Product](project-trust.md)
+6. [Contribute](contribute.md)
 
 ## Introduction
-
->  "People ignore design that ignores people."  
->  Frank Chimero    
-
-
 
 The design process provides us with the appropriate techniques and tools to thoroughly assess the users' needs around a particular problem definition.  This is especially useful when we want to:
 
