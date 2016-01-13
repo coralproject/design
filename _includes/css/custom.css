@@ -159,6 +159,12 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #{{ site.color.primary }};
     background-color: #{{ site.color.secondary }};
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition:  transform .2s;
+    -moz-transition:  transform .2s;
+    transition:  transform .2s;
 }
 
 .btn-xl:hover,
@@ -166,9 +172,13 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.primary }};
     color: #{{ site.color.primary }};
     background-color: #{{ site.color.secondary }};
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .btn-xl:active,
@@ -837,6 +847,27 @@ section h3.section-subheading {
 .team-member p {
     margin-top: 0;
 }
+
+
+.artifact {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.artifact img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.artifact h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.artifact p {
+    margin-top: 0;
+}
+
 
 aside.clients img {
     margin: 50px auto;

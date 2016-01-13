@@ -8,19 +8,22 @@
                 </div>
             </div>
             <div class="row">
-                {% for member in site.items %}
+                {% for artifact in site.data.artifacts %}
                 <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.png" class="img-responsive img-circle" alt="">
-                        <h4>{{ items.name }}</h4>
-                        <p class="text-muted">{{ items.href }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                    <div class="artifact">
+                        <img src="{{ artifact.pic }}" class="img-responsive" alt="{{ artifact.alt }}">
+                        <h4>{{ artifact.name }}</h4>
+                            <ul class="list-inline">
+                            {% for links in artifact.link %}
+                            <li><a href="{{ links.url }}" alt="Source file for {{ links.type }}" ><i class="fa fa-{{ links.type }}"></i> Source file</a>
+                            
                             {% endfor %}
 
                         </ul>
                     </div>
+                        
+                        <p class="text-muted">{{ artifact.description }}</p>
+                        
                 </div>
                 {% endfor %}
             </div-->
