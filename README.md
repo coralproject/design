@@ -9,10 +9,10 @@ This is the process  we employ across all design disciplines in order to properl
 
 ### Contents
 
-1. [Introduction](#introduction)
-2. [Design Process](#design-process)
-3. [User Research](#user-research)
-4. [First Product](#first-product)
+1. Introduction
+2. [Design Process](process.md)
+3. [User Research](personas.md)
+4. [First Product](project-trust.md)
 
 ## Introduction
 
