@@ -1,5 +1,18 @@
 ## Design Process
-This is our design process and some of the activities required in each. While they are in sequential order, there is a lot of iterating back when we come across new findings.  
+
+This is a breakdown of our current design process, methods, and, techniques which we can employ in order to properly assess user needs and frustrations so that we can properly ensure which products to build that will satisfy our user's goals and hopefully add an additional value proposition to everyone's experience beyond just solving the problem definition.
+
+This deliberate process is especially useful when we want to:
+
+ 1. make a decision based on observational or subjective data.
+ 2. gather behavioral and attitudinal insights from users.
+ 3. map intent to behavioral cues through user and mental models.
+ 4. facilitate design thinking and understanding across the company.
+
+
+These are our major areas of design and some of the activities required in each. While they are in sequential order, there is a lot of iterating back when we come across new findings.
+
+![Design Process](img/process/design-process-flow.png)
 
 **Stakeholder Interviews**  
 Gather requirements, research, KPI’s, and a wish list of features.  
@@ -27,11 +40,6 @@ Attitudinal and behavioral evaluations of hypotheses.
 
 
 
-When reaching out to help contribute with design, please let us know which area you would like to be involved in and follow the directions on the [contribute](contribute.md) page to get involved.   
-
-
-
-
 ## User Research   
 #### Interviews   
 Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.   
@@ -46,7 +54,7 @@ Needs analysis based on interviews from the exploratory research phase.
 #### Feature brainstorm   
  
 
-![Feature brainstorm](/images/placeholder-12x4.png)   
+![Feature brainstorm](img/process/features.png)   
 
 
 
