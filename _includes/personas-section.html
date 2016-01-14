@@ -4,23 +4,25 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Personas</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Personas are currently ongoing and will require a new set of interviews for validation and insight.</h3>
+                    
                 </div>
             </div>
             <div class="row">
                 {% for persona in site.data.personas %}
                 <div class="col-sm-4">
-                    <div class="artifact">
+                    <div class="persona">
                         <img src="{{ persona.pic }}" class="img-responsive" alt="{{ persona.alt }}">
                         <h4>{{ persona.name }}</h4>
-                        <h5>" {{ persona.tagline }} "</h5>
+                        <h5> {{ persona.role }} </h5>
+                        <p>" {{ persona.tagline }} "</p>
                         
                         
-                            <dl>
+                            <dl class="list-inline">
                                 
                             {% for archetype in persona.archetypes %}
                                 <dt>Archetype</dt>
-                                <dd>{{ archetype.primary }}</dd>
+                                <dd>{{ archetype.name }}</dd>
                                 
                                     {% for orientation in archetype.orientations %}
                                         <dt>Primary</dt>
@@ -41,7 +43,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    
+                    {{ include persona.html }}
                 </div>
             </div>
         </div>

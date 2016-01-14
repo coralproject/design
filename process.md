@@ -58,23 +58,7 @@ Needs analysis based on interviews from the exploratory research phase.
 
 
 
-#### Personas
-Personas are currently ongoing and will require a new set of interviews for validation and insight.    
-[Personas project page](personas.md)   
-
-###### Target roles
-- Audience
-- Engagement Editor
-- Journalist
-- Moderator
-- Publisher
-- Developer
-- Third-party Installer
-
-#### Journey Map and Mental Models    
-Journey Map is currently ongoing based on qualitative data from interviews.  
-
-###### Hypothesis driven design process flow  
+##### Hypothesis driven design process flow  
 1. Conceptualize *idea*.
 2. What *assumptions* can we make from this concept?
 3. What *hypothesis* can we formulate from these assumptions?

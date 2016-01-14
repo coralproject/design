@@ -213,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 #tabzilla {
-    top: -1px;
+    top: 1px;
     right: 50px;
     display: block;
     background-image: url(img/tabzilla/tab-link-white.png);
@@ -225,7 +225,16 @@ fieldset[disabled] .btn-xl.active {
     text-indent: -2000px;
     z-index: 9999;
 }
-
+body:before {
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    top: 0;
+    left: 0;
+    content: " ";
+    position: absolute;
+    z-index: 9999;
+}
 .navbar-default {
     border-color: transparent;
     background-attachment: scroll;
@@ -284,8 +293,9 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: "Josefin Slab", Arial, sans-serif;
     font-weight: 100;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: #fff;
+    font-size: 0.85em;
     -webkit-transition: backgroundColor transform .2s;
     -moz-transition: backgroundColor transform .2s;
     transition: backgroundColor transform .2s;
@@ -457,6 +467,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;*/
+    
 }
 
 header .intro-text {
@@ -848,6 +859,25 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.persona {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.persona img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.persona h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.persona p {
+    margin-top: 0;
+}
 
 .artifact {
     margin-bottom: 50px;
@@ -1083,9 +1113,13 @@ img::-moz-selection {
 img {
     max-width: 100%;  
 }
-
+dt:after {
+  content: ": ";
+}
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+   
+    
 }
 
 @media(max-width:700px) {
