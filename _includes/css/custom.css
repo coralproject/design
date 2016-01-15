@@ -235,6 +235,12 @@ body:before {
     position: absolute;
     z-index: 9999;
 }
+
+#readme ol,
+#readme h3 {
+    display: none;
+}
+
 .navbar-default {
     border-color: transparent;
     background-attachment: scroll;
