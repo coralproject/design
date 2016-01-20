@@ -12,23 +12,47 @@
                 {% for persona in site.data.personas %}
                 <div class="col-sm-4">
                     <div class="persona">
-                        <img src="{{ persona.pic }}" class="img-responsive" alt="{{ persona.alt }}">
+                        <img src="{{ persona.pic }}" class="img-circle img-responsive" alt="{{ persona.alt }}">
                         <h4>{{ persona.name }}</h4>
-                        <h5> {{ persona.role }} </h5>
+                        <div> {{ persona.role }} </div>
                         <p>" {{ persona.tagline }} "</p>
                         
                         
-                            <dl class="list-inline">
+                        
+                         <input type="checkbox" id="btn-{{persona.name}}" name="nptbtn" value="one"/>
+                        <label for="btn-{{persona.name}}" class="panel-label"> Motivations</label>
+                        
+                        
+                        <div class="motivations">
+                            <dl class="archetypes">
                                 
                             {% for archetype in persona.archetypes %}
                                 <dt>Archetype</dt>
                                 <dd>{{ archetype.name }}</dd>
                                 
                                     {% for orientation in archetype.orientations %}
-                                        <dt>Primary</dt>
+                                        <dt>Primary Orientation</dt>
                                         <dd>{{ orientation.primary }}</dd>
-                                        <dt>Secondary</dt>
+                                        <dt>Secondary Orientation</dt>
                                         <dd>{{ orientation.secondary }}</dd>
+                                    {% endfor %}
+                                    {% for trait in archetype.traits %}
+                                        <dt>Motto</dt>
+                                        <dd>{{ trait.motto }}</dd>
+                                        <dt>Core Desire</dt>
+                                        <dd>{{ trait.desire }}</dd>
+                                        <dt>Goal</dt>
+                                        <dd>{{ trait.goal }}</dd>
+                                        <dt>Greatest Fear</dt>
+                                        <dd>{{ trait.fear }}</dd>
+                                        <dt>Strategy</dt>
+                                        <dd>{{ trait.strategy }}</dd>
+                                        <dt>Weakness</dt>
+                                        <dd>{{ trait.weakness }}</dd>
+                                        <dt>Talent</dt>
+                                        <dd>{{ trait.talent }}</dd>
+                                        <dt>Also Known As</dt>
+                                        <dd>{{ trait.aka }}</dd>
                                     {% endfor %}
                                 
                             {% endfor %}
@@ -37,6 +61,7 @@
                     </div>
                         
                         <p class="text-muted">{{ persona.description }}</p>
+                        </div>
                         
                 </div>
                 {% endfor %}

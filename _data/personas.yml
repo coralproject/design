@@ -1,18 +1,27 @@
 - persona-id: 1
   name: Persona name
-  pic: https://s3.amazonaws.com/uifaces/faces/twitter/marcosmoralez/128.jpg
-  role: Engagement Editor
+  pic: https://s3.amazonaws.com/uifaces/faces/twitter/dannpetty/128.jpg
+  role: Journalist
   tagline: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."
   archetypes:
     - name: Sage
       orientations:
-            - primary: social
-              secondary: order
-  traits:
-    - type: Trait 1
+            - primary: Social
+              secondary: Order
+      traits:
+            - motto: "The truth will set you free"
+              desire: "Seek the truth"
+              goal: "Utilize intelligence and analysis to understand the world"
+              fear: "Ignorance, being misled"
+              strategy: "Seek information and knowledge externally and internally"
+              weakness: "Pendantic, can fail to act"
+              talent: "Wisdom and intelligence"
+              aka: "Scholar, thinker, and philosopher"
+  blurbs:
+    - type: want
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-    - type: Trait 3
+    - type: need
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
     
@@ -27,9 +36,19 @@
   archetypes:
     - name: Ruler
       orientations:
-            - primary: order
-              secondary: ego
-  traits:
+            - primary: Order
+              secondary: Ego
+      traits:
+            - motto: "Power isn't everything, it's the only thing"
+              desire: Control
+              goal: "Create a prosperous, successful family or community"
+              fear: "Exercise power"
+              strategy: "Chaos"
+              weakness: "Authoritarianism, inability to delegate"
+              talent: "Responsibility and leadership"
+              aka: "Leader, aristrocrat, politician, or manager"
+              
+  blurbs:
     - type: Trait 1
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -42,15 +61,24 @@
   
 - persona-id: 3
   name: Persona
-  pic: https://s3.amazonaws.com/uifaces/faces/twitter/dannpetty/128.jpg
-  role: Journalist
+  pic: https://s3.amazonaws.com/uifaces/faces/twitter/marcosmoralez/128.jpg
+  role: Engagement Editor
   tagline: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."
   archetypes:
     - name: Caregiver
       orientations:
-            - primary: social
-              secondary: order
-  traits:
+            - primary: Social
+              secondary: Freedom
+      traits:
+            - motto: "Love your neighbor as yourself"
+              desire: "To protect and care for others"
+              goal: "To help others"
+              fear: "Selfishness and ingratitude"
+              strategy: "Doing things for others"
+              weakness: "Martyrdom and exploitation"
+              talent: "Compassion and generosity"
+              aka: "Saint, parent, helper, supporter"
+  blurbs:
     - type: Trait 4
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."

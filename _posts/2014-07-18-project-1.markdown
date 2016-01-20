@@ -3,8 +3,8 @@ title: Brand
 subtitle: Logo
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: placeholder.png
+date: 2016-01-14
+img: logo-iterations-1.2.large.png
 thumbnail: placeholder-thumbnail.png
 alt: image-alt
 project-date: September 2015

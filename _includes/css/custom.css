@@ -241,6 +241,75 @@ body:before {
     display: none;
 }
 
+
+.motivations {
+    margin: 0px;
+    opacity: 0;
+    height: 1px;
+    -webkit-transition:  opacity .2s ease-in .1s, height .35s ease-out, margin .35s ease-out .25s;
+    -moz-transition:  opacity .2s ease-in .1s, height .35s ease-out, margin .35s ease-out .25s;
+    transition:  opacity .2s ease-in .1s, height .35s ease-out, margin .35s ease-out .25s;
+}
+
+.persona input[type="checkbox"] {
+    opacity: 0;
+}
+.panel-label {
+    display: block;
+    height: 100%;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 1em 0;
+    margin: 1em 0;
+    border-bottom: #ddd 1px solid;
+}
+input[type="checkbox"]:checked {
+    
+}
+input[type="checkbox"]:checked + label{
+    
+
+}
+input[type="checkbox"]:checked ~ div {
+    opacity: 1;
+    height: 100%;
+    margin: 1em;
+}
+
+
+
+dl {
+    
+}
+/*
+dt {
+    float: left;
+    padding-right: 1em;
+}
+dd {
+    content: " ";
+    display: table;
+}
+*/
+dt {
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+dd {
+    font-size: 0.95em;
+    font-weight: 200;
+    text-transform:none;
+    padding: 0 0 0.5em 0;
+}
+dt:after {
+  content: " ";
+}
+
+
+
+
+
+
 .navbar-default {
     border-color: transparent;
     background-attachment: scroll;
@@ -1119,9 +1188,7 @@ img::-moz-selection {
 img {
     max-width: 100%;  
 }
-dt:after {
-  content: ": ";
-}
+
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
    
