@@ -20,7 +20,7 @@
                         
                         
                          <input type="checkbox" id="btn-{{persona.name}}" name="nptbtn" value="one"/>
-                        <label for="btn-{{persona.name}}" class="panel-label"> Motivations</label>
+                        <label for="btn-{{persona.name}}" class="panel-label"> Motivators</label>
                         
                         
                         <div class="motivations">
@@ -29,13 +29,14 @@
                             {% for archetype in persona.archetypes %}
                                 <dt>Archetype</dt>
                                 <dd>{{ archetype.name }}</dd>
-                                
+                                <h6>Orientation</h6>
                                     {% for orientation in archetype.orientations %}
                                         <dt>Primary Orientation</dt>
                                         <dd>{{ orientation.primary }}</dd>
                                         <dt>Secondary Orientation</dt>
                                         <dd>{{ orientation.secondary }}</dd>
                                     {% endfor %}
+                                <h6>Traits</h6>
                                     {% for trait in archetype.traits %}
                                         <dt>Motto</dt>
                                         <dd>{{ trait.motto }}</dd>

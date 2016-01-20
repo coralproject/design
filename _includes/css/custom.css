@@ -250,7 +250,11 @@ body:before {
     -moz-transition:  opacity .2s ease-in .1s, height .35s ease-out, margin .35s ease-out .25s;
     transition:  opacity .2s ease-in .1s, height .35s ease-out, margin .35s ease-out .25s;
 }
-
+.motivations h6 {
+    padding: 1em 0;
+    margin: 1em 0;
+    border-bottom: #ddd 1px solid;   
+}
 .persona input[type="checkbox"] {
     opacity: 0;
 }
@@ -623,19 +627,22 @@ section h3.section-subheading {
 #brand a {
     margin: 2em;
 }
-#iterations .iterations-item {
+#iterations .iterations-item, 
+#artifacts .artifacts-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#iterations .iterations-item .iterations-link {
+#iterations .iterations-item .iterations-link,
+#artifacts .artifacts-item .iterations-link{
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#iterations .iterations-item .iterations-link .iterations-hover {
+#iterations .iterations-item .iterations-link .iterations-hover,
+#artifacts .artifacts-item .iterations-link .iterations-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -660,11 +667,13 @@ section h3.section-subheading {
     */
 }
 
-#iterations .iterations-item .iterations-link .iterations-hover:hover {
+#iterations .iterations-item .iterations-link .iterations-hover:hover,
+#artifacts .artifacts-item .iterations-link .iterations-hover:hover {
     opacity: 1;
 }
 
-#iterations .iterations-item .iterations-link .iterations-hover .iterations-hover-content {
+#iterations .iterations-item .iterations-link .iterations-hover .iterations-hover-content,
+#artifacts .artifacts-item .iterations-link .iterations-hover .iterations-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -675,16 +684,20 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#iterations .iterations-item .iterations-link .iterations-hover .iterations-hover-content i {
+#iterations .iterations-item .iterations-link .iterations-hover .iterations-hover-content i,
+#artifacts .artifacts-item .iterations-link .iterations-hover .iterations-hover-content i{
     margin-top: -12px;
 }
 
 #iterations .iterations-item .iterations-link .iterations-hover .iterations-hover-content h3,
-#iterations .iterations-item .iterations-link .iterations-hover .iterations-hover-content h4 {
+#iterations .iterations-item .iterations-link .iterations-hover .iterations-hover-content h4,
+#artifacts .artifacts-item .iterations-link .iterations-hover .iterations-hover-content h3,
+#artifacts .artifacts-item .iterations-link .iterations-hover .iterations-hover-content h4{
     margin: 0;
 }
 
-#iterations .iterations-item .iterations-caption {
+#iterations .iterations-item .iterations-caption,
+#artifacts .artifacts-item .iterations-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -692,19 +705,22 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#iterations .iterations-item .iterations-caption h4 {
+#iterations .iterations-item .iterations-caption h4,
+#artifacts .artifacts-item .iterations-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#iterations .iterations-item .iterations-caption p {
+#iterations .iterations-item .iterations-caption p,
+#artifacts .artifacts-item .iterations-caption p {
     margin: 0;
     font-family: "Josefin Slab", Arial, sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-#iterations * {
+#iterations *,
+#artifacts * {
     z-index: 2;
 }
 
