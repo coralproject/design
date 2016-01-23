@@ -58,7 +58,7 @@ h6 {
     font-family: "Fira Sans", Arial, sans-serif;
     font-weight: 300;
     color: #{{ site.color.secondary-dark }};
-   
+
 }
 .img-circle img {
     -webkit-transform: scale(1.5);
@@ -91,16 +91,16 @@ h6 {
     z-index: 999;
 }
 .intro-icon.read {
-    background-image: url(img/readme/icon-read.png); 
+    background-image: url(img/readme/icon-read.png);
 }
 .intro-icon.experiment {
-    background-image: url(img/readme/icon-flask.png); 
+    background-image: url(img/readme/icon-flask.png);
 }
 .intro-icon.speak {
-    background-image: url(img/readme/icon-mic.png); 
+    background-image: url(img/readme/icon-mic.png);
 }
 .intro-icon.code {
-    background-image: url(img/readme/icon-code.png); 
+    background-image: url(img/readme/icon-code.png);
 }
 .btn-primary {
     border-color: #{{ site.color.primary }};
@@ -255,7 +255,7 @@ body:before {
 .motivations h6 {
     padding: 1em 0;
     margin: 1em 0;
-    border-bottom: #ddd 1px solid;   
+    border-bottom: #ddd 1px solid;
 }
 .persona input[type="checkbox"] {
     opacity: 0;
@@ -270,10 +270,10 @@ body:before {
     border-bottom: #ddd 1px solid;
 }
 input[type="checkbox"]:checked {
-    
+
 }
 input[type="checkbox"]:checked + label{
-    
+
 
 }
 input[type="checkbox"]:checked ~ div {
@@ -285,7 +285,7 @@ input[type="checkbox"]:checked ~ div {
 
 
 dl {
-    
+
 }
 /*
 dt {
@@ -314,13 +314,26 @@ dt:after {
 
 
 
-
+.navbar-toggle {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    padding: 9px 8px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
 
 .navbar-default {
     border-color: transparent;
     background-attachment: scroll;
     background: rgba(247,113,96,0.8);
-        
+
     background: -moz-linear-gradient(top, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,114,96,1)), color-stop(100%, rgba(252,149,70,1)));
     background: -webkit-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
@@ -333,7 +346,7 @@ dt:after {
 .navbar-default .navbar-brand {
     font-family: "Josefin Slab", Arial, sans-serif;
     font-weight: 100;
-    color: #{{ site.color.secondary }};   
+    color: #{{ site.color.secondary }};
     background-image: url("/design/img/logos/coralWordMark-1.5.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -389,11 +402,11 @@ dt:after {
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #{{ site.color.secondary }};
-    
+
 }
 
 .navbar-default .navbar-nav>.active>a {
-
+  background-color: transparent;
     position: relative;
 }
 
@@ -433,7 +446,7 @@ dt:after {
 /* same word slide in */
 .navbar-default .navbar-nav li:not(.active) a {
 	overflow: hidden;
-	
+
 }
 
 .navbar-default .navbar-nav li:not(.active)  a span {
@@ -472,7 +485,7 @@ dt:after {
     width: 25%;
     margin-right: 2em;
     display: inline-block;
-    
+
 }
 .footer-logo {
     max-width: 100px;
@@ -505,9 +518,9 @@ dt:after {
 
     .navbar-default.navbar-shrink {
         padding: 0;
-        
 
-        
+
+
        /* background-color: rgba(247,113,96,0.8);*/
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -516,12 +529,9 @@ dt:after {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-        
+
     }
-    .navbar-default.navbar-shrink .navbar-brand {
-        width: 11em;
-        
-    }
+
 }
 
 
@@ -548,7 +558,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;*/
-    
+
 }
 
 header .intro-text {
@@ -622,6 +632,7 @@ section h3.section-subheading {
     }
 }
 
+
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -629,7 +640,7 @@ section h3.section-subheading {
 #brand a {
     margin: 2em;
 }
-#iterations .iterations-item, 
+#iterations .iterations-item,
 #artifacts .artifacts-item {
     right: 0;
     margin: 0 0 15px;
@@ -652,10 +663,10 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    
+
     background-attachment: scroll;
     background: rgba(247,113,96,0.8);
-        
+
     background: -moz-linear-gradient(left, rgba(247,113,96,1) 0%, rgba(252,149,70,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,114,96,1)), color-stop(100%, rgba(252,149,70,1)));
     background: -webkit-linear-gradient(left, rgba(247,113,96,1) 0%, rgba(252,149,70,1) 100%);
@@ -930,6 +941,16 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        width: 11em;
+
+    }
+    .navbar-default .navbar-nav>.active>a:link {
+      background-color: transparent !important;
+      display: inline-block;
+    }
+
 }
 
 .team-member {
@@ -1204,19 +1225,24 @@ img::-moz-selection {
     background: 0 0;
 }
 img {
-    max-width: 100%;  
+    max-width: 100%;
 }
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
-   
-    
+
+
 }
 
-@media(max-width:700px) {
+@media(max-width:1200px) {
     .navbar-default .navbar-brand {
         background-image: url("/design/img/logos/coralLogoMark-1.5.white.png");
         background-size: auto 2em;
         margin-left: 1em;
+        width: 2em;
     }
+    .navbar-shrink .navbar-brand {
+      width: 2em;
+    }
+
 }
