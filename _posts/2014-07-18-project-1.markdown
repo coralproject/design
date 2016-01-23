@@ -1,6 +1,6 @@
 ---
 title: Brand
-subtitle: Logo
+subtitle: Identity System
 layout: default
 modal-id: 1
 date: 2016-01-14
@@ -11,5 +11,6 @@ project-date: September 2015
 designer: Angel
 category: Branding
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+md-file: project-trust.html
 ---
+

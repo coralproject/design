@@ -6,10 +6,12 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Fira Sans",Helvetica,Arial,sans-serif;
+    font-family: "Fira Sans",Helvetica, Arial ,sans-serif;
     color: #{{ site.color.secondary-dark }};
 }
-
+code {
+    font-family: "Fira Mono",Menlo,Monaco,Consolas,"Courier New",monospace;
+}
 .text-muted {
     color: #777;
 }

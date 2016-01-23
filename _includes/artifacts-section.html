@@ -1,17 +1,17 @@
 <!-- artifacts Section -->
-    <section id="artifacts" class="bg-light-brown">
+    <section id="artifacts" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Artifacts</h2>
-                    <h3 class="section-subheading text-muted">Assets available for download.</h3>
+                    <h3 class="section-subheading text-muted">Deliverables and templates available for download.</h3>
                 </div>
             </div>
             <div class="row">
                 {% for artifact in site.data.artifacts %}
-                
-                
-                
+
+
+
                 <!--div class="col-sm-4">
                     <div class="artifact">
                         <img src="{{ artifact.pic }}" class="img-responsive" alt="{{ artifact.alt }}">
@@ -19,17 +19,17 @@
                             <ul class="list-inline">
                             {% for links in artifact.link %}
                             <li><a href="{{ links.url }}" alt="Source file for {{ links.type }}" ><i class="fa fa-{{ links.type }}"></i> Source file</a>
-                            
+
                             {% endfor %}
 
                         </ul>
                     </div>
-                        
+
                         <p class="text-muted">{{ artifact.description }}</p>
-                        
+
                 </div-->
-                
-                
+
+
                 <div class="col-md-4 col-sm-6 artifacts-item">
                     <a href="#artifactsModal{{ artifact.doc-id }}" class="iterations-link" data-toggle="modal">
                         <div class="iterations-hover">
@@ -43,8 +43,8 @@
                         <h4>{{ artifact.title }}</h4>
                         <p class="text-muted">{{ artifact.subtitle }}</p>
                     </div>
-                </div>                
-                
+                </div>
+
                 {% endfor %}
             </div>
             <div class="row">
