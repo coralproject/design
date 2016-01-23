@@ -13,3 +13,5 @@
 On *The Coral Project*, we are creating open-source tools and resources for publishers of all sizes to build better communities around their journalism.
 
 Throughout this project we will collect, support, and share practices, tools, techniques and studies to improve communities on the web.
+
+This site's repo is currently set to private while I update and structure the documentation, I should be ready to open the repo by the end of January.
