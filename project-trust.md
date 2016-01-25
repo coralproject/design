@@ -1,14 +1,14 @@
 ## Core Product
-> "Our first product is a reputational analytics tool that takes existing comment log data to give indicative reputational scores to publishers.That information can then be used by publishers to i) identify their best commenters so their contributions can be highlighted and become the basis for future journalism based on their own definition of “good”, ii) give moderators a sense of context about each commenter, and iii) help publishers understand the nature of commenter behavior on their site."   
+> "Our first product is a reputation analytics tool that takes existing comment log data to give indicative reputation scores to publishers.That information can then be used by publishers to i) identify their best commenters so their contributions can be highlighted and become the basis for future journalism based on their own definition of “good”, ii) give moderators a sense of context about each commenter, and iii) help publishers understand the nature of commenter behavior on their site."   
 >Greg Barber [Our First Product](https://coralproject.net/first-product/)   
 
-#### IA & IxD
+#### IA
 IA Flow based on high level needs of Engagement Editor role.    
 
 ![IA Flow - Engagement Editor](img/process/ia-draft-1.0.1-small.png)
 
 #### User Stories & Wireframes
-As an Engagement Editor
+*As an Engagement Editor*
 -  I need analytics to be able to track people on site, retention, etc in order to calculate lifetime value of each reader. This is because it helps with the business calculations / advertising / proving and quantifying the value of community.
 
     ![User Story 1](img/process/1.2.0/us-1-figure.png)

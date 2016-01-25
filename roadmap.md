@@ -1,6 +1,6 @@
 ### Project Roadmap
 Project roadmap for initial phase of project.
-![Project Roadmap 9.2015](img/process/design-roadmap-phase-1-small.png)
+[Project Roadmap 9.2015](img/process/design-roadmap-phase-1-small.png)
 
 
 

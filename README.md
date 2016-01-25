@@ -1,3 +1,4 @@
+<div class="hide">
 ### Contents
 
 1. Introduction
@@ -6,7 +7,7 @@
 4. [User Research](personas.md)
 5. [Roadmap](roadmap.md)
 6. [First Product](project-trust.md)
-
+</div>
 
 ## The Coral Project
 
@@ -14,4 +15,4 @@ On *The Coral Project*, we are creating open-source tools and resources for publ
 
 Throughout this project we will collect, support, and share practices, tools, techniques and studies to improve communities on the web.
 
-This site's repo is currently set to private while I update and structure the documentation, I should be ready to open the repo by the end of January.
+This site's repo is currently set to private while I update and structure and build out this static site, I should be ready to open the repo by the end of January.

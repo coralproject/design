@@ -6,22 +6,23 @@
 - Publisher
 - Developer
 - Third-party Installer
- 
+
 
 
 ## Primary Persona
-[Primary Persona](primary-persona.md) 
+Primary Persona for Trust project is for the Engagement Editor role.
+[Primary Persona](primary-persona.md)
 
 ## Secondary Persona
-[Secondary Persona](secondary-persona.md) 
+Secondary Persona for the Trust project is for the Moderator
+[Secondary Persona](secondary-persona.md)
 
 ## Tertiary Persona
-[Tertiary Persona](tertiary-persona.md) 
+Tertiary persona for the Trust project is for the Journalist role.
+[Tertiary Persona](tertiary-persona.md)
 
 
 
 
 #### Journey Map and Mental Models    
-Journey Map is currently ongoing based on qualitative data from interviews. 
-
-
+Journey Map is currently ongoing based on qualitative data from interviews.

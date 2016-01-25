@@ -1,9 +1,9 @@
 ---
-title: Project 1
+title: Trust Score
 subtitle: Reputation Analytics Tool
 layout: default
 modal-id: 6
-date: 2014-07-15
+date: 2016-01-25
 img: placeholder.png
 thumbnail: placeholder-thumbnail.png
 alt: image-alt
@@ -13,4 +13,3 @@ category: UX Design
 description: "Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse."
 md-file: project-trust.html
 ---
-

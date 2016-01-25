@@ -11,11 +11,11 @@ description: "Coral Project design process and documentation"
 color:
   primary: f77160
   primary-dark: f55440
-  secondary: fff 
+  secondary: fff
   secondary-dark: 3d3d3d
- 
 
-  
+
+
 # Team names, titles and social links
 people:
 - name: Angel Colberg
@@ -50,23 +50,19 @@ social:
   - title: facebook
     url:
   - title: stack-overflow
-    url: 
-  - title: bitbucket 
-    url: 
+    url:
+  - title: bitbucket
+    url:
   - title: github
     url: http://github.com/coralproject
 
 # Postal address (add as many lines as necessary)
 address:
   - line: New York, Washington D.C., San Francisco
- 
+
 
 # Build settings
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables",     "with_toc_data"]
 permalink: pretty
-
-
-
-

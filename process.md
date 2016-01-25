@@ -44,25 +44,26 @@ Attitudinal and behavioral evaluations of hypotheses.
 #### Interviews   
 Qualitative data gathered over the past year from exploratory conversations with more than 300 people in over 175 organizations from more than 25 countries.   
 
-Task-focused follow-up interviews are currently being planned for our first product. 
+Task-focused follow-up interviews are currently being planned for our first product.
 
 #### Needs Analysis  
 Needs analysis based on interviews from the exploratory research phase.   
 [Trello board](https://trello.com/b/Dhrb4D74/coral-s-needs-public) with needs by role.  
 
-
-#### Feature brainstorm   
- 
-
-![Feature brainstorm](img/process/features.png)   
-
+#### Features Breakdown   
+ Feature brainstorm and affinity session based deliverable.
+ <div class="hide">
+ [Feature brainstorm](img/process/features.png)
+ </div>
 
 
 ##### Hypothesis driven design process flow  
 1. Conceptualize *idea*.
 2. What *assumptions* can we make from this concept?
 3. What *hypothesis* can we formulate from these assumptions?
-*e.g.* *If* **[action]** *then* **[outcome]** *because* **[user need/problem has been addressed]**    
+
+    *e.g.* *If* **[action]** *then* **[outcome]** *because* **[user need/problem has been addressed]**  
+
 4. What *experiment* do we plan and conduct to test this hypothesis?
 5. What did we *learn*?
 6. What will do *next*?
