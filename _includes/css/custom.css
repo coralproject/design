@@ -12,6 +12,9 @@ body {
 code {
     font-family: "Fira Mono",Menlo,Monaco,Consolas,"Courier New",monospace;
 }
+.hide {
+  display: none;
+}
 .text-muted {
     color: #777;
 }
