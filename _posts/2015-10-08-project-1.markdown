@@ -5,7 +5,7 @@ layout: default
 modal-id: 1
 date: 2015-10-08
 img: logos/TypeMark.png
-thumbnail: iterations/placeholder-thumbnail.png
+thumbnail: placeholder-thumbnail.png
 alt: Logo iterations
 project-date: October 2015
 designer: Angel

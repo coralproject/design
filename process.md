@@ -12,7 +12,6 @@ This deliberate process is especially useful when we want to:
 
 These are our major areas of design and some of the activities required in each. While they are in sequential order, there is a lot of iterating back when we come across new findings.
 
-![Design Process](img/process/design-process-flow.png)
 
 **Stakeholder Interviews**  
 Gather requirements, research, KPI’s, and a wish list of features.  
