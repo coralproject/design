@@ -9,7 +9,7 @@
 
 
   alt: alt tag
-  iteration: 1.0
+  category: code
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
 - doc-id: 2
@@ -22,7 +22,7 @@
       url: placeholder.png
 
   alt: alt tag
-  iteration: 1.0
+  category: something
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
 - doc-id: 3
@@ -35,5 +35,5 @@
       url: placeholder.png
 
   alt: Coral Project Presentation Templates
-  iteration: 1.0
+  category: Templates
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
