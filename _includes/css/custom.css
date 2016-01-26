@@ -1134,7 +1134,8 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.iterations-modal .modal-content {
+.iterations-modal .modal-content,
+.artifacts-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -1145,32 +1146,40 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
-.iterations-modal .modal-content h2 {
+.iterations-modal .modal-content h2,
+.artifacts-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
 }
 
-.iterations-modal .modal-content p {
+.iterations-modal .modal-content p,
+.artifacts-modal .modal-content p {
     margin-bottom: 30px;
 }
 
-.iterations-modal .modal-content p.item-intro {
+.iterations-modal .modal-content p.item-intro,
+.artifacts-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Josefin Slab", Arial, sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-.iterations-modal .modal-content ul.list-inline {
+.iterations-modal .modal-content ul.list-inline,
+.artifacts-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.iterations-modal .modal-content img {
-    margin-bottom: 30px;
+.iterations-modal .modal-content img,
+.artifacts-modal .modal-content img {
+    margin: 0 auto 30px auto;
+    width: 80%;
+
 }
 
-.iterations-modal .close-modal {
+.iterations-modal .close-modal,
+.artifacts-modal .close-modal  {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -1180,11 +1189,13 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.iterations-modal .close-modal:hover {
+.iterations-modal .close-modal:hover,
+.artifacts-modal .close-modal:hover {
     opacity: .3;
 }
 
-.iterations-modal .close-modal .lr {
+.iterations-modal .close-modal .lr,
+.artifacts-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -1195,7 +1206,8 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
-.iterations-modal .close-modal .lr .rl {
+.iterations-modal .close-modal .lr .rl,
+.artifacts-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;

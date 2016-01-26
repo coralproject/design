@@ -4,14 +4,16 @@ Project roadmap for initial phase of project.
 
 ##### Current project roadmap
 1.16 - Iteration 1.3.0
-  Dashboard refactor
-    Hypothesis: TODO
-  Object Manager refactor
-    Hypothesis: TODO
+
+  - Dashboard refactor
+    * Hypothesis: TODO
+  - Object Manager refactor
+    * Hypothesis: TODO
 
 2.16 - Scenario and usability prototype testing for 1.3.0 and 1.2.0
-  Target roles: EE, Mod, Journalist
-  Scenario: TODO
+
+  - Target roles: EE, Mod, Journalist
+    * Scenario: TODO
 
 
 #### Project Success

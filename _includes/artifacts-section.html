@@ -40,8 +40,14 @@
                         <img src="img/{{ artifact.pic }}" class="img-responsive" alt="">
                     </a>
                     <div class="iterations-caption">
-                        <h4>{{ artifact.title }}</h4>
-                        <p class="text-muted">{{ artifact.subtitle }}</p>
+                      <h4>{{ artifact.name }}</h4>
+                          <ul class="list-inline">
+                          {% for links in artifact.link %}
+                          <li><a href="{{ links.url }}" alt="Source file for {{ links.type }}" ><i class="fa fa-{{ links.type }}"></i> Source file</a>
+
+                          {% endfor %}
+
+                      </ul>
                     </div>
                 </div>
 

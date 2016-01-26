@@ -52,9 +52,11 @@ Needs analysis based on interviews from the exploratory research phase.
 #### Features Breakdown   
  Feature brainstorm and affinity session based deliverable.
 
+
 <span class="hide">
 [Feature brainstorm](img/process/features.png)
 </span>
+
 
 
 ##### Hypothesis driven design process flow  
