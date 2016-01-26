@@ -5,9 +5,11 @@
 2. [Contribute](contribute.md)
 3. [Design Process](process.md)
 4. [Personas](personas.md)
+
    a. [Primary](primary-persona.md)
    b. [Secondary](secondary-persona.md)
    c. [Tertiary](tertiary-persona.md)
+
 5. [Roadmap](roadmap.md)
 6. [Core Product](project-trust.md)
 7. [Install](install.md)
