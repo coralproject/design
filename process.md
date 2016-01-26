@@ -54,7 +54,7 @@ Needs analysis based on interviews from the exploratory research phase.
 
 
 <span class="hide">
-[Feature brainstorm](img/process/features.png)
+[Feature brainstorm](img/process/1.0.0/features.png)
 </span>
 
 
