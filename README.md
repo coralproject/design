@@ -17,4 +17,4 @@ On *The Coral Project*, we are creating open-source tools and resources for publ
 
 Throughout this project we will collect, support, and share practices, tools, techniques and studies to improve communities on the web.
 
-This site's repo is currently set to private while I update and structure and build out this static site, I should be ready to open the repo by the end of January.
+This static site is still very much a work in progress as I add content and more structure to it over the next few weeks. 
