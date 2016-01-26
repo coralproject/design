@@ -1,0 +1,15 @@
+---
+title: Core Product
+subtitle: Reputation Analytics Tool
+layout: default
+modal-id: 6
+date: 2016-01-25
+img: placeholder.png
+thumbnail: placeholder-thumbnail.png
+alt: Core product
+project-date: October 2015
+designer: Angel
+category: UX Design, Interaction Design, product
+description: "Iterations for our core product, a reputation analytics tool. "
+md-file: project-trust.html
+---

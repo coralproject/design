@@ -5,7 +5,8 @@
 #### IA
 IA Flow based on high level needs of Engagement Editor role.    
 
-![IA Flow - Engagement Editor](img/process/ia-draft-1.0.1-small.png)
+  ![IA Flow - Engagement Editor](img/process/ia-draft-1.0.1-small.png)
+
 
 #### User Stories & Wireframes
 *As an Engagement Editor*

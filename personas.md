@@ -1,4 +1,5 @@
 ###### Target roles
+
 - Audience
 - Engagement Editor
 - Journalist
@@ -25,4 +26,4 @@ Tertiary persona for the Trust project is for the Journalist role.
 
 
 #### Journey Map and Mental Models    
-Journey Map is currently ongoing based on qualitative data from interviews.
+Still needs to be done.

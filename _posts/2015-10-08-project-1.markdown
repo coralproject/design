@@ -1,0 +1,15 @@
+---
+title: Brand and Identity
+subtitle: Logo, color palette, and type
+layout: default
+modal-id: 1
+date: 2015-10-08
+img: logos/TypeMark.png
+thumbnail: iterations/placeholder-thumbnail.png
+alt: Logo iterations
+project-date: October 2015
+designer: Angel
+category: branding
+description: Branding and identity sprint covering logo, colors, and type for use across all our offline and online efforts.
+md-file: brand.html
+---

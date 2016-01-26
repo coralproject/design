@@ -1,28 +1,28 @@
 # Artifacts
-#artifacts: 
+#artifacts:
 - doc-id: 1
   name: Some Code
-  pic: img/process/placeholder.png
+  pic: placeholder.png
   link:
     - type: file-code-o
-      url: image/process/placeholder.png
+      url: placeholder.png
 
-    
+
   alt: alt tag
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-  
+
 - doc-id: 2
   name: Some Document Name
-  pic: img/process/placeholder.png
+  pic: placeholder.png
   link:
     - type: file-word-o
-      url: image/process/placeholder.png
+      url: placeholder.png
     - type: file-pdf-o
-      url: image/process/placeholder.png
-      
-  alt: alt tag    
+      url: placeholder.png
+
+  alt: alt tag
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-  
+
 - doc-id: 3
   name: Coral Presentation Templates
   pic: img/logos/TypeMark.png
@@ -30,7 +30,7 @@
     - type: file-powerpoint-o
       url: assets/templates/placeholder.pptx
     - type: apple
-      url: pdf/process/placeholder.png
-      
-  alt: alt tag    
+      url: placeholder.png
+
+  alt: alt tag
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."

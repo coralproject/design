@@ -3,10 +3,10 @@ title: Personas
 subtitle: User Models
 layout: default
 modal-id: 5
-date: 2014-07-14
+date: 2015-11-01
 img: placeholder.png
 thumbnail: placeholder-thumbnail.png
-alt: image-alt
+alt: Personas
 project-date: October 2015
 designer: Angel
 category: UX Design

@@ -1,3 +1,3 @@
 # Placeholder
 
-![Placeholder Image](/images/placeholder.png)
+![Placeholder Image](img/placeholder.png)
