@@ -1,6 +1,4 @@
 <span class="hide">
-### Contents
-
 1. Introduction
 2. [Contribute](contribute.md)
 3. [Design Process](process.md)
