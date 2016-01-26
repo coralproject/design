@@ -11,7 +11,6 @@
 5. [Roadmap](roadmap.md)
 6. [Core Product](project-trust.md)
 7. [Install](install.md)
-8. [Contribute](contribute.md)
 </span>
 
 ## The Coral Project
