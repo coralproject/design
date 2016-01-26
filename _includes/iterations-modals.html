@@ -17,15 +17,15 @@
                             <img src="img/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
+                                <!--li>
                                     <strong><a href="#">{{ post.client }}</a>
                                     </strong>
-                                </li>
+                                </li-->
                                 <li>Date:
                                     <strong><a href="#">{{ post.project-date }}</a>
                                     </strong>
                                 </li>
-                                <li>Service:
+                                <li>Tags:
                                     <strong><a href="#">{{ post.category }}</a>
                                     </strong>
 
@@ -45,8 +45,11 @@
 
 
             {% include {{ post.md-file }}  %}
+
+
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
         </div>
-        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
 
     </div>
 

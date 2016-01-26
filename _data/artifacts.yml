@@ -25,12 +25,12 @@
 
 - doc-id: 3
   name: Coral Presentation Templates
-  pic: img/logos/TypeMark.png
+  pic: logos/TypeMark.png
   link:
     - type: file-powerpoint-o
       url: assets/templates/placeholder.pptx
     - type: apple
       url: placeholder.png
 
-  alt: alt tag
+  alt: Coral Project Presentation Templates
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
