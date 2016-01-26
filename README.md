@@ -1,4 +1,4 @@
-<div class="hide">
+<span class="hide">
 ### Contents
 
 1. Introduction
@@ -7,7 +7,7 @@
 4. [User Research](personas.md)
 5. [Roadmap](roadmap.md)
 6. [First Product](project-trust.md)
-</div>
+</span>
 
 ## The Coral Project
 

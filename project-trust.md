@@ -26,4 +26,5 @@ IA Flow based on high level needs of Engagement Editor role.
     ![User Story 4](img/process/1.2.0/us-4-figure.png)
 
 -  I need a way to configure, customize and extend each tool.    
+
     ![User Story 5](img/process/1.2.0/us-5-figure.png)
