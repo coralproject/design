@@ -10,6 +10,8 @@
 
   alt: alt tag
   category: code
+  iteration: 1.0
+  date: 2016-01-25
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
 - doc-id: 2
@@ -23,6 +25,8 @@
 
   alt: alt tag
   category: something
+  iteration: 1.0
+  date: 2016-01-25
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
 - doc-id: 3
@@ -36,4 +40,6 @@
 
   alt: Coral Project Presentation Templates
   category: Templates
+  iteration: 1.0
+  date: 2016-01-25
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
