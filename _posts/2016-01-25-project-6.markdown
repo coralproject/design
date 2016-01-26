@@ -9,6 +9,7 @@ thumbnail: placeholder-thumbnail.png
 alt: Core product
 project-date: October 2015
 designer: Angel
+iteration: 1.3
 category: UX Design, Interaction Design, product
 description: "Iterations for our core product, a reputation analytics tool. "
 md-file: project-trust.html

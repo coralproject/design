@@ -9,6 +9,7 @@ thumbnail: placeholder-thumbnail.png
 alt: Card game
 project-date: December 2015
 designer: Angel
+iteration: 1.0
 category: Game
 description: Source files for card game and description of card game from Andrew.
 md-file: placeholder.html
