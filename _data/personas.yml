@@ -2,7 +2,7 @@
   name: Persona name
   pic: https://s3.amazonaws.com/uifaces/faces/twitter/dannpetty/128.jpg
   role: Journalist
-  tagline: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."
+  tagline: "To see community as potential contributors."
   archetypes:
     - name: Sage
       orientations:
@@ -24,15 +24,16 @@
     - type: need
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-    
+
   alt: alt tag
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-  
+
 - persona-id: 2
   name: Persona Name
   pic: https://s3.amazonaws.com/uifaces/faces/twitter/nuraika/128.jpg
   role: Moderator
-  tagline: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."
+  tagline: "Would love to have tools to pass on knowledge about active trolls, top commenters, etc within the system so that user behavior can be understood in context, and so that institutional knowledge isn't lost if someone leaves.
+"
   archetypes:
     - name: Ruler
       orientations:
@@ -47,7 +48,7 @@
               weakness: "Authoritarianism, inability to delegate"
               talent: "Responsibility and leadership"
               aka: "Leader, aristrocrat, politician, or manager"
-              
+
   blurbs:
     - type: Trait 1
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -55,15 +56,15 @@
     - type: Trait 3
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-    
+
   alt: alt tag
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-  
+
 - persona-id: 3
   name: Persona
   pic: https://s3.amazonaws.com/uifaces/faces/twitter/marcosmoralez/128.jpg
   role: Engagement Editor
-  tagline: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."
+  tagline: "Likes to encourage good commenters to stick around so that the best contributors keep adding value to the site."
   archetypes:
     - name: Caregiver
       orientations:
@@ -85,6 +86,6 @@
     - type: Trait 3
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-    
+
   alt: alt tag
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."

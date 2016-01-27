@@ -264,13 +264,15 @@ body:before {
     opacity: 0;
 }
 .panel-label {
-    display: block;
-    height: 100%;
-    font-size: 1em;
-    font-weight: 400;
-    padding: 1em 0;
-    margin: 1em 0;
-    border-bottom: #ddd 1px solid;
+  display: block;
+  height: 100%;
+  font-size: 1.25em;
+  font-weight: 400;
+  padding: 1em 5px;
+  margin: 1em 0;
+  border-bottom: #ddd 1px solid;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
 }
 input[type="checkbox"]:checked {
 
@@ -329,14 +331,16 @@ dt:after {
     background-color: transparent;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-attachment: scroll;
-    background: rgba(247,113,96,0.8);
 
+
+    background-attachment: scroll;
+    background-color: rgba(247,113,96,0.95);
+/*
     background: -moz-linear-gradient(top, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,114,96,1)), color-stop(100%, rgba(252,149,70,1)));
     background: -webkit-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
@@ -344,12 +348,13 @@ dt:after {
     background: -ms-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
     background: linear-gradient(to right, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f77260', endColorstr='#fc9546', GradientType=1 );
+    */
 }
 
 .navbar-default .navbar-brand {
     font-family: "Josefin Slab", Arial, sans-serif;
     font-weight: 100;
-    color: #{{ site.color.secondary }};
+    /*color: #{{ site.color.secondary }} ;*/
     background-image: url("/design/img/logos/coralWordMark-1.5.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -390,7 +395,7 @@ dt:after {
     text-transform: uppercase;
     font-family: "Josefin Slab", Arial, sans-serif;
     font-weight: 100;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     color: #fff;
     font-size: 0.85em;
     -webkit-transition: backgroundColor transform .2s;
@@ -398,7 +403,7 @@ dt:after {
     transition: backgroundColor transform .2s;
     transform-origin: -10 -10;
     padding: 0;
-    margin: 30px 15px;
+    margin: 30px 10px;
 }
 
 .navbar-default .nav li a:hover,
@@ -517,21 +522,20 @@ dt:after {
 
     .navbar-default .navbar-nav>.active>a {
        background-color: transparent;
+
     }
 
     .navbar-default.navbar-shrink {
         padding: 0;
-
-
-
-       /* background-color: rgba(247,113,96,0.8);*/
+        background-color: rgba(25,25,25,0.95);
+        /*background-color: rgba(247,113,96,0.8);*/
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+
 
     }
 
@@ -546,7 +550,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background: rgba(247,114,96,1);
+    background: rgba(247,113,96,1);
+    /*
     background: -moz-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,114,96,1)), color-stop(100%, rgba(252,149,70,1)));
     background: -webkit-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
@@ -554,7 +559,7 @@ header {
     background: -ms-linear-gradient(left, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
     background: linear-gradient(to right, rgba(247,114,96,1) 0%, rgba(252,149,70,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f77260', endColorstr='#fc9546', GradientType=1 );
-    /*background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -633,6 +638,7 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+
 }
 
 
@@ -921,7 +927,17 @@ section h3.section-subheading {
         padding: 0 20px 20px;
     }
 }
-
+@media(max-width: 1000px) {
+    .nav li  {
+        font-size: 0.85em;
+    }
+    .nav li {
+      overflow: hidden;
+    }
+    .container {
+      width: 95%;
+    }
+}
 @media(min-width:1200px) {
     .timeline>li {
         min-height: 170px;

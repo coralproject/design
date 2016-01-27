@@ -1,45 +1,17 @@
 # Artifacts
 #artifacts:
+
 - doc-id: 1
-  name: Some Code
-  pic: placeholder.png
-  link:
-    - type: file-code-o
-      url: placeholder.png
-
-
-  alt: alt tag
-  category: code
-  iteration: 1.0
-  date: 2016-01-25
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-- doc-id: 2
-  name: Some Document Name
-  pic: placeholder.png
-  link:
-    - type: file-word-o
-      url: placeholder.png
-    - type: file-pdf-o
-      url: placeholder.png
-
-  alt: alt tag
-  category: something
-  iteration: 1.0
-  date: 2016-01-25
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-- doc-id: 3
   name: Coral Presentation Templates
   pic: iterations/cp-presentation-coral-thumbnail.png
   link:
     - type: file-powerpoint-o
-      url: assets/templates/placeholder.pptx
+      url: assets/templates/cp-starter-widescreen.pptx
     - type: apple
-      url: placeholder.png
+      url: assets/templates/cp-starter-widescreen.key
 
   alt: Coral Project Presentation Templates
   category: Templates
   iteration: 1.0
   date: 2016-01-25
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+  description: "Presentation templates for Powerpoint and Keynote"

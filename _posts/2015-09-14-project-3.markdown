@@ -11,6 +11,6 @@ project-date: September 2015
 designer: Andrew
 iteration: 1.0
 category: Web design
-description: Node map of potential features derived from user needs compiled during discovery.
+description: Mind map of potential features derived from user needs compiled during discovery.
 md-file: placeholder.html
 ---
