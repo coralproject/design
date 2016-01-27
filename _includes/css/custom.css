@@ -527,8 +527,8 @@ dt:after {
 
     .navbar-default.navbar-shrink {
         padding: 0;
-        background-color: rgba(25,25,25,0.95);
-        /*background-color: rgba(247,113,96,0.8);*/
+        /*background-color: rgba(25,25,25,0.95);*/
+        background-color: rgba(247,113,96,0.95);
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
