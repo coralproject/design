@@ -1,16 +1,16 @@
 ---
 title: Card Game
-subtitle: Card game designs
+subtitle: Cards Against Humanity
 layout: default
 modal-id: 2
 date: 2015-12-15
 img: placeholder.png
-thumbnail: placeholder-thumbnail.png
-alt: Card game
+thumbnail: iterations/cards-thumbnail.png
+alt: Cards Against Humanity card game
 project-date: December 2015
 designer: Angel
 iteration: 1.0
 category: Game
 description: Source files for card game and description of card game from Andrew.
-md-file: placeholder.html
+md-file: cards.html
 ---

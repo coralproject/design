@@ -1,16 +1,16 @@
 ---
 title: Core Product
-subtitle: Reputation Analytics Tool
+subtitle: 1.1.0 Initial Wireframes
 layout: default
 modal-id: 6
 date: 2016-01-25
 img: iterations/1.1.0/mock-dashboard-1.1.0.png
-thumbnail: placeholder-thumbnail.png
+thumbnail: iterations/1.1.0/dashboard-1.1.0-thumbnail.png
 alt: Core product
 project-date: October 2015
 designer: Angel
 iteration: 1.1.0
 category: UX Design, Interaction Design, product
-description: "Iterations for our core product, a reputation analytics tool. "
-md-file: project-trust.html
+description: "Iterations for our core product, a reputation analytics tool."
+md-file: project-trust-1.1.0.html
 ---

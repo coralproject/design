@@ -1,16 +1,16 @@
 ---
-title: Role and Task Analyses
-subtitle: UX
+title: Core product 1.0.0
+subtitle: Initial dashboard concept
 layout: default
 modal-id: 4
 date: 2015-10-30
-img: placeholder.png
-thumbnail: placeholder-thumbnail.png
-alt: image-alt
+img: iterations/1.0.0/ia-draft-1.0.1-small.png
+thumbnail: iterations/1.0.0/ia-flow-1.0.0-thumbnail.png
+alt: Initial flow
 project-date: October 2015
 designer: Angel
-iteration: 1.0
-category: UX Analysis
+iteration: 1.0.0
+category: UX Analysis, Interaction Design
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-md-file: placeholder.html
+md-file: project-trust-1.0.0.html
 ---

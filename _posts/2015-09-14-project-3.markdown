@@ -4,7 +4,7 @@ subtitle: Brainstorming exercise
 layout: default
 modal-id: 3
 date: 2015-09-14
-img: process/1.0.0/design-roadmap-phase-1-small.png
+img: process/1.0.0/features.png
 thumbnail: placeholder-thumbnail.png
 alt: image-alt
 project-date: September 2015

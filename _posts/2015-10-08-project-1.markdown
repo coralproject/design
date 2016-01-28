@@ -5,11 +5,11 @@ layout: default
 modal-id: 1
 date: 2015-10-08
 img: logos/TypeMark.png
-thumbnail: placeholder-thumbnail.png
+thumbnail: iterations/logo-iterations-1.2.0-thumbnail.png
 alt: Logo iterations
 project-date: October 2015
 designer: Angel
-iteration: 1.0
+iteration: 1.0.0
 category: branding
 description: Branding and identity sprint covering logo, colors, and type for use across all our offline and online efforts.
 md-file: brand.html

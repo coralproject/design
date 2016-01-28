@@ -672,7 +672,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-
+    background: rgba(25,25,25,0.8);
+    /*
     background-attachment: scroll;
     background: rgba(247,113,96,0.8);
 
@@ -683,7 +684,7 @@ section h3.section-subheading {
     background: -ms-linear-gradient(left, rgba(247,113,96,1) 0%, rgba(252,149,70,1) 100%);
     background: linear-gradient(to right, rgba(247,113,96,1) 0%, rgba(252,149,70,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f77160', endColorstr='#fc9546', GradientType=1 );
-    /*
+
     background: rgba(254,209,54,.9);
     background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
     */
@@ -1159,7 +1160,7 @@ ul.social-buttons li a:active {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
+    text-align: left;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1169,6 +1170,7 @@ ul.social-buttons li a:active {
 .artifacts-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
+    text-align: center
 }
 
 .iterations-modal .modal-content p,
@@ -1183,7 +1185,9 @@ ul.social-buttons li a:active {
     font-size: 16px;
     font-style: italic;
 }
-
+.item-description, .item-details  {
+  text-align: center;
+}
 .iterations-modal .modal-content ul.list-inline,
 .artifacts-modal .modal-content ul.list-inline {
     margin-top: 0;
@@ -1193,7 +1197,7 @@ ul.social-buttons li a:active {
 .iterations-modal .modal-content img,
 .artifacts-modal .modal-content img {
     margin: 0 auto 30px auto;
-    width: 80%;
+    width: 100%;
 
 }
 
