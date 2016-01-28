@@ -591,6 +591,9 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+
+
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
@@ -672,7 +675,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(25,25,25,0.8);
+    background: rgba(25,25,25,0.9);
     /*
     background-attachment: scroll;
     background: rgba(247,113,96,0.8);
