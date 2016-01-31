@@ -42,7 +42,13 @@ ___
 
 ### Styleguide
 
-TODO: build out simple, drill down or other structure or clone one like edx, atom, or docter.
+{% assign componentsByType = site.components | group_by:"type" %}
+{% for type in componentsByType %}
+  <h3 class="sg-h2">{{ type.name | capitalize }}</h3>
+  {% for entry in type.items %}
+    {% include component.html %}
+  {% endfor %}
+{% endfor %}
 
 #### Assets
 

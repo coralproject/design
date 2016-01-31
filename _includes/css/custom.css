@@ -6,14 +6,12 @@
 
 
 
-* {
 
 
-}
 
 body {
     overflow-x: hidden;
-    font-family: "Fira Sans",Helvetica, Arial ,sans-serif;
+    font-family: "Open Sans",Helvetica, Arial ,sans-serif;
     color: #{{ site.color.secondary-dark }};
 }
 code {
@@ -57,15 +55,25 @@ a:active,
 a.active {
     color: #{{ site.color.primary-dark }};
 }
-
+pre {
+  margin: 0;
+  background: #f9f9f9;
+}
 h1,
-h2,
+h2 {
+  text-transform: uppercase;
+  font-family: "Josefin Slab",Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #{{ site.color.secondary-dark }};
+}
+
+
 h3,
 h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Fira Sans", Arial, sans-serif;
+    font-family: "Fira Sans",Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: #{{ site.color.secondary-dark }};
 
@@ -115,7 +123,7 @@ h6 {
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
-    font-family: "Fira Sans", Arial, sans-serif;
+    font-family: "Fira Sans",Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #{{ site.color.secondary }};
     background-color: #{{ site.color.primary }};
@@ -281,14 +289,14 @@ body:before {
   border-top: 1px solid #ddd;
   cursor: pointer;
 }
-input[type="checkbox"]:checked {
+.persona input[type="checkbox"]:checked {
 
 }
-input[type="checkbox"]:checked + label{
+.persona input[type="checkbox"]:checked + label{
 
 
 }
-input[type="checkbox"]:checked ~ div {
+.persona input[type="checkbox"]:checked ~ div {
     opacity: 1;
     height: 100%;
     margin: 1em;
@@ -324,6 +332,107 @@ dt:after {
 }
 
 
+
+.group 			  {
+  position:relative;
+  margin-bottom:45px;
+}
+.sg-component__display input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #666;
+}
+.sg-component__display input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+.sg-component__display label 				 {
+  color:#999;
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+.sg-component__display input:focus ~ label, .sg-component__display input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+}
+
+.sg-component__display input:focus ~ label		{
+  color:#f77160;
+}
+
+.sg-component__display input:valid ~ label 		{
+  color:#999;
+}
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:1px;
+  width:0;
+  bottom:1px;
+  position:absolute;
+  background:#f77160;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:0;
+}
+.bar:after {
+  display: none;
+}
+
+/* active state */
+.sg-component__display input:focus ~ .bar:before, .sg-component__display input:focus ~ .bar:after {
+  width:100%;
+}
+.sg-component__display input:focus {
+  border-bottom-color: transparent;
+}
+
+/* HIGHLIGHTER ================================== */
+.hlite {
+  position:absolute;
+  height:60%;
+  width:100px;
+  top:25%;
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+.sg-component__display input:focus ~ .hlite {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+ from { background:#f77160; }
+  to 	{ width:0; left: 0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+ from { background:#f77160; }
+  to 	{ width:0; left: 0; background:transparent; }
+}
+@keyframes inputHighlighter {
+ from { background:#f77160; }
+  to 	{ width:0; left: 0; background:transparent; }
+}
 
 
 .navbar-toggle {
@@ -362,7 +471,7 @@ dt:after {
     font-family: "Josefin Slab", Arial, sans-serif;
     font-weight: 100;
     /*color: #{{ site.color.secondary }} ;*/
-    background-image: url("/design/img/logos/coralWordMark-1.5.png");
+    background-image: url("img/logos/coralWordMark-1.5.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;

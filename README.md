@@ -1,20 +1,14 @@
 <span class="hide">
-1. Introduction
-
-2. [Contribute](contribute.md)
-
-3. [Design Process](process.md)
-
-4. [Personas](personas.md)
-   * [Primary](primary-persona.md)
-   * [Secondary](secondary-persona.md)
-   * [Tertiary](tertiary-persona.md)
-
-5. [Roadmap](roadmap.md)
-
-6. [Core Product](project-trust.md)
-
-7. [Install](install.md)
+  1. Introduction
+  2. [Contribute](contribute.md)
+  3. [Design Process](process.md)
+  4. [Personas](personas.md)
+     * [Primary](primary-persona.md)
+     * [Secondary](secondary-persona.md)
+     * [Tertiary](tertiary-persona.md)
+  5. [Roadmap](roadmap.md)
+  6. [Core Product](project-trust.md)
+  7. [Install](install.md)
 </span>
 
 ## The Coral Project

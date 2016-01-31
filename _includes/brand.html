@@ -30,6 +30,10 @@
 </div>
 <hr />
 <h3 id="styleguide">Styleguide</h3>
-<p>TODO: build out simple, drill down or other structure or clone one like edx, atom, or docter.</p>
+{% assign componentsByType = site.components | group_by:&quot;type&quot; %} {% for type in componentsByType %}
+<h3 class="sg-h2">
+{{ type.name | capitalize }}
+</h3>
+<p>{% for entry in type.items %} {% include component.html %} {% endfor %} {% endfor %}</p>
 <h4 id="assets">Assets</h4>
 <p>TODO: add ppt/key templates, sketch/ai/psd files.</p>

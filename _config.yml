@@ -7,6 +7,19 @@ title: Coral Project Design
 email: angel@mozillafoundation.org
 description: "Coral Project design process and documentation"
 
+baseurl: ""
+url: "http://coralproject.github.io/design/pattern-library" # the base hostname & protocol for your site
+twitter_username: coralproject
+github_username:  coralproject
+
+# Collections
+collections:
+  components:
+    output: false
+
+
+
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: f77160
@@ -62,7 +75,20 @@ address:
 
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables",     "with_toc_data"]
+highlighter: rouge
+
+#markdown: redcarpet
+#redcarpet:
+  #extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables",     "with_toc_data"]
 permalink: pretty
+
+
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+sass:
+  sass_dir: _sass
+  style: :compressed
