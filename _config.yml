@@ -1,14 +1,12 @@
 
 url: https://coralproject.github.com/design/
-baseurl: /
+baseurl: /design
 
 # Site settings
 title: Coral Project Design
 email: angel@mozillafoundation.org
 description: "Coral Project design process and documentation"
 
-baseurl: ""
-url: "http://coralproject.github.io/design/pattern-library" # the base hostname & protocol for your site
 twitter_username: coralproject
 github_username:  coralproject
 
