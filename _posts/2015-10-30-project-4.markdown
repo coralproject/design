@@ -4,7 +4,7 @@ subtitle: Initial dashboard concept
 layout: default
 modal-id: 4
 date: 2015-10-30
-img: iterations/1.0.0/ia-draft-1.0.1-small.png
+img: process/1.0.0/ia-draft-1.0.1-small.png
 thumbnail: iterations/1.0.0/ia-flow-1.0.0-thumbnail.png
 alt: Initial flow
 project-date: October 2015
