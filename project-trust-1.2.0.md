@@ -1,8 +1,8 @@
 ### 1.2.0
 
-#### Dashboard
+#### Wireframes
 
-##### H1
+##### H1 Dashboard
 
  1. H1 List driven UI - Annotated wireframe
 
@@ -13,7 +13,7 @@
 ![H1 List Driven UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.png)
 
 
-##### H2
+##### H2 Dashboard
 
  1. List driven UI alternative
 
