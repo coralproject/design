@@ -1,8 +1,8 @@
-### Project Roadmap
+## Project Roadmap
 Project roadmap for initial phase of project.
 [Project Roadmap 9.2015](img/process/1.0.0/design-roadmap-phase-1-small.png)
 
-##### Current project roadmap
+### Current project roadmap
 1.16 - Iteration 1.3.0
 
   - Dashboard refactor

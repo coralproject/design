@@ -26,4 +26,4 @@ Tertiary persona for the Trust project is for the Journalist role.
 
 
 #### Journey Map and Mental Models    
-Still needs to be done.
+TODO: Still needs to be done.

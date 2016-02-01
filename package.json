@@ -1,0 +1,37 @@
+{
+  "name": "coral",
+  "version": "1.0.0",
+  "description": "mini site for coralproject/design",
+  "main": "index.html",
+  "author": "Angel Colberg <angel@mozillafoundation.org> (https://github.com/coralproject/design)",
+  "license": "MIT",
+  "scripts": {
+    "start": "jekyll server",
+    "build": "npm run build:convert -s & npm run build:format -s & npm run build:safe -s",
+    "build:convert": "find . -name \\*.md -maxdepth 1 -type f -exec pandoc -o _includes/{}.html {} \\;",
+    "build:format": "find . -name '*.md.html' -exec sh -c -v 'mv \"$0\" \"${0%.md.html}.html\"' {} \\;",
+    "build:safe": "jekyll build --safe",
+    "postbuild": "echo Done",
+    "trace": "jekyll build --trace",
+    "open:prod": "open https://coralproject.github.io/design/",
+    "open:dev": "open http://127.0.0.1:4000/design/",
+    "predeploy": "git add .",
+    "deploy": "git push origin gh-pages",
+    "serve": "jekyll serve --watch",
+    "dev": "npm run serve -s & npm run open:dev -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoralProject/design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CoralProject/design/issues"
+  },
+  "homepage": "https://github.com/CoralProject/design",
+  "dependencies": {
+    "gh-pages": "^0.9.0",
+    "jekyll": "^3.0.0-beta1",
+    "node-sass": "^3.4.2",
+    "pandoc": "^0.2.0"
+  }
+}

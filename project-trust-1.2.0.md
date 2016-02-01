@@ -25,7 +25,10 @@
 
 #### User Stories
 
- *As an Engagement Editor*
+The stories below are derived from needs analysis of interviews conducted with news staffs of all types over the past year. Coupling our features and flows with that of each role will help us to stay focused on their explicit needs.
+
+
+##### *As an Engagement Editor*
 
  -  I need analytics to be able to track people on site, retention, etc in order to calculate lifetime value of each reader. This is because it helps with the business calculations / advertising / proving and quantifying the value of community.
 

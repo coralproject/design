@@ -81,7 +81,7 @@ highlighter: rouge
 permalink: pretty
 
 
-
+exclude: ["node_modules"]
 
 markdown: kramdown
 kramdown:
