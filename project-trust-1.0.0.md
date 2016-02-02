@@ -1,13 +1,18 @@
 ### 1.0.0
 
 
-#### Dashboard List Driven UI Mockup
+#### Mockup
 
+##### Dashboard List Driven UI
 
 ![List Driven UI](img/iterations/1.0.0/dashboard v.1.0.0.png)
 
 
 #### Wireframes
+
+##### Zones
+
+![Portlet zones](img/iterations/1.0.0/zones-1280.png)
 
 ##### List driven UI
 
@@ -42,4 +47,4 @@
 
     - Confirm
 
-        ![User Settings ](img/iterations/1.0.0/sign-in-confirm.png)
+      ![User Settings ](img/iterations/1.0.0/sign-in-confirm.png)
