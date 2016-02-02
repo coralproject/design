@@ -2,25 +2,26 @@
 
 #### Wireframes
 
-##### H1 Dashboard
+##### Dashboard
 
- 1. H1 List driven UI - Annotated wireframe
+ 1. List driven UI - Annotated wireframe
 
-![H1 List driven UI - annotated](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0-admin-base.png)
-
- 2. H1 Search driven UI
-
-![H1 List Driven UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.png)
+![List driven UI - annotated](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0-admin-base.png)
 
 
-##### H2 Dashboard
+
+
+##### Dashboard
+
+Alternatives with repositioned user card in the top right and the user manager as a tab in the data rather than its own page.
 
  1. List driven UI alternative
 
- ![H2 List Driven UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.1.png)
+ ![H1 List Driven UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.1.png)
  2. Search driven UI alternative
 
  ![H2 Search Driven UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.2.png)
+
 
 
 #### User Stories

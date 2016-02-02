@@ -1,10 +1,10 @@
-### 1.1.0
+### 1.0.0
 
 
 #### Dashboard List Driven UI Mockup
 
 
-![List Driven UI](img/iterations/1.1.0/mock-dashboard-1.1.0.png)
+![List Driven UI](img/iterations/1.0.0/dashboard v.1.0.0.png)
 
 
 #### Wireframes
@@ -13,32 +13,33 @@
 
  1.  Dashboard side panel closed
 
- ![H1 List Driven UI - panel closed](img/iterations/1.1.0/wireframes/dashboard-v.1.1.0.png)
+ ![H1 List Driven UI - panel closed](img/iterations/1.0.0/dashboard v.1.0.0.png)
 
  2. Dashboard side panel open
 
- ![H1 List Driven UI - panel open](img/iterations/1.1.0/wireframes/dashboard-v.1.1.1.png)
+ ![H1 List Driven UI - panel open](img/iterations/1.0.0/dashboard v.1.0.1.png)
 
  3. Module Detail View / Options
 
- ![H1 Module Detail View](img/iterations/1.1.0/wireframes/module-detail-view-v.1.1.0.png)
+ ![H1 Module Detail View](img/iterations/1.0.0/module-detail-view-1.0.0.png)
 
  4. User manager profile
 
     - H1 User Manager Profile  
 
-      ![H1 User Manager Profile ](img/iterations/1.1.0/wireframes/user-manager-v.1.1.0.png)
+      ![H1 User Manager Profile ](img/iterations/1.0.0/user-manager-v.1.0.0.png)
 
     - H2 User Manager Profile
 
-      ![H2 User Manager Profile ](img/iterations/1.1.0/wireframes/user-manager-profile-2-v.1.1.0.png)
+      ![H2 User Manager Profile](img/iterations/1.0.0/user-manager-v.1.0.1.png)
 
- 5. Settings
 
-    - Platform
+ 5. Authentication
 
-      ![Platform Settings ](img/iterations/1.1.0/wireframes/settings-platform-v.1.1.0.png)
+    - Sign in
 
-    - User
+      ![Platform Settings ](img/iterations/1.0.0/sign-in.png)
 
-        ![User Settings ](img/iterations/1.1.0/wireframes/settings-user-v.1.1.0.png)
+    - Confirm
+
+        ![User Settings ](img/iterations/1.0.0/sign-in-confirm.png)

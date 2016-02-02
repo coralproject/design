@@ -1,27 +1,23 @@
 ### 1.1.0
 
 
-#### Dashboard List Driven UI Mockup
-
-
-![List Driven UI](img/iterations/1.1.0/mock-dashboard-1.1.0.png)
-
-
 #### Wireframes
+
+
 
 ##### List driven UI
 
  1.  Dashboard side panel closed
 
- ![H1 List Driven UI - panel closed](img/iterations/1.1.0/wireframes/dashboard-v.1.1.0.png)
+ ![List Driven UI - panel closed](img/iterations/1.1.0/wireframes/dashboard-v.1.1.0.png)
 
  2. Dashboard side panel open
 
- ![H1 List Driven UI - panel open](img/iterations/1.1.0/wireframes/dashboard-v.1.1.1.png)
+ ![List Driven UI - panel open](img/iterations/1.1.0/wireframes/dashboard-v.1.1.1.png)
 
  3. Module Detail View / Options
 
- ![H1 Module Detail View](img/iterations/1.1.0/wireframes/module-detail-view-v.1.1.0.png)
+ ![Module Detail View](img/iterations/1.1.0/wireframes/module-detail-view-v.1.1.0.png)
 
  4. User manager profile
 
