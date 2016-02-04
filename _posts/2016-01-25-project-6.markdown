@@ -10,7 +10,7 @@ alt: Core product
 project-date: October 2015
 designer: Angel
 iteration: 1.1.0
-category: UX Design, Interaction Design, product
+category: UX
 description: "Iterations for our core product, a reputation analytics tool."
 md-file: project-trust-1.1.0.html
 ---

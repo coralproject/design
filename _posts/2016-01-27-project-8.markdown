@@ -10,7 +10,7 @@ alt: Dashboard 1.3.0
 project-date: January 2016
 designer: Angel
 iteration: 1.3.0
-category: UX Design, Interaction Design, product
+category: UX
 description: "Iterations for our core product, a reputation analytics tool. "
 md-file: project-trust-1.3.0.html
 ---

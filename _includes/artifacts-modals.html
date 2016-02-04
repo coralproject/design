@@ -13,9 +13,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ artifact.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/{{ artifact.pic }}" class="img-responsive img-centered" alt="{{ artifact.alt }}">
-                            <p>{{ artifact.description }}</p>
+                            
                             <ul class="list-inline item-details">
                                 <li>Iteration:
                                     <strong><a href="#">{{ artifact.iteration }}</a>
@@ -30,6 +28,11 @@
                                     </strong>
                                 </li>
                             </ul>
+
+                            <hr class="star-primary">
+                            <img src="img/{{ artifact.pic }}" class="img-responsive img-centered" alt="{{ artifact.alt }}">
+                            <p>{{ artifact.description }}</p>
+
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="icon icon-cross"></i> Close</button>
                         </div>
                     </div>
