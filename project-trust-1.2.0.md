@@ -47,13 +47,13 @@ Changes in this iteration include repositioned user card in the top right (1.2.0
 
     List Driven Dashboard UI - Date Range
 
-    ![List Driven Dashboard UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2.png)
+    ![List Driven Dashboard UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.3.png)
 
-    ![Facet and graph selection](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2a.png)
+    ![Facet and graph selection](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.3a.png)
 
-    ![Profile Tab View - Messaging Sub Tab](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2b.png)
+    ![Profile Tab View - Messaging Sub Tab](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.3b.png)
 
-    ![Profile Tab View - Activity Stream Sub Tab](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2c.png)
+    ![Profile Tab View - Activity Stream Sub Tab](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.3c.png)
 
 
 ----
