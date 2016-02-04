@@ -30,13 +30,13 @@
 
  4. User manager profile
 
-    - H1 User Manager Profile  
+    - User Manager Profile  
 
-      ![H1 User Manager Profile ](img/iterations/1.0.0/user-manager-v.1.0.0.png)
+      ![User Manager Profile ](img/iterations/1.0.0/user-manager-v.1.0.0.png)
 
-    - H2 User Manager Profile
+    - User Manager Profile
 
-      ![H2 User Manager Profile](img/iterations/1.0.0/user-manager-v.1.0.1.png)
+      ![User Manager Profile](img/iterations/1.0.0/user-manager-v.1.0.1.png)
 
 
  5. Authentication
