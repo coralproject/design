@@ -1319,7 +1319,21 @@ ul.social-buttons li a:active {
     width: 100%;
 
 }
+.iterations-modal .figure,
+.artifacts-modal .figure {
+  font-size: 1.3em;
+}
+.iterations-modal .figure .caption,
+.artifacts-modal .figure .caption {
+ text-align: center;
+ font-size: 1rem;
+ padding: 1.5em 3em;
+ font-style: italic;
+}
+.iterations-modal,
+.artifacts-modal {
 
+}
 .iterations-modal .close-modal,
 .artifacts-modal .close-modal  {
     position: absolute;

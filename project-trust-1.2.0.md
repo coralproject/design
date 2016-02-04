@@ -2,31 +2,70 @@
 
 #### Wireframes
 
-##### Dashboard
+##### Annotated
 
- 1. List driven UI - Annotated wireframe
+ 1. List driven UI - Annotated Dashboard Wireframe
 
-![List driven UI - annotated](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0-admin-base.png)
-
-
+ ![List driven UI - annotated](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0-admin-base.png)
 
 
-##### Dashboard
 
-Alternatives with repositioned user card in the top right and the user manager as a tab in the data rather than its own page.
 
- 1. List driven UI alternative
+##### Screens
 
- ![H1 List Driven UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.1.png)
- 2. Search driven UI alternative
+Changes in this iteration include repositioned user card in the top right (1.2.0.0) and the user manager as a tab in the data rather than its own page (1.2.0.1).
 
- ![H2 Search Driven UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.2.png)
+ 1. ##### 1.2.0.0
+
+  List Driven Dashboard UI
+
+  ![List Driven Dashboard UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.0.png)
+
+  List Driven Profile UI
+
+  ![List Driven Profile UI](img/iterations/1.2.0/wireframes/user-profile-v.1.2.0.0.png)
+
+ 2. ##### 1.2.0.1
+
+  List Driven Dashboard UI - Updated Tabs Below Data View With User List Manager, Experiment, and Configure.
+
+  ![List Driven Dashboard UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.1.png)
+
+ 3. ##### 1.2.0.2
+
+  Search Driven Dashboard UI - Re-pri for testing at a later date based on feasibility.
+
+  ![Search Defaults Initial Query to Date](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2.png)
+
+  ![Pivoting Data - Search Field and Facet Dropdown List ](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2a.png)
+
+  ![Profile Tab View - Messaging Sub Tab](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2b.png)
+
+  ![Profile Tab View - Activity Stream Sub Tab](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2c.png)
+
+  4. ##### 1.2.0.3
+
+   List Driven Dashboard UI - Date Range
+
+   ![List Driven Dashboard UI](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2.png)
+
+   ![Facet and graph selection](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2a.png)
+
+   ![Profile Tab View - Messaging Sub Tab](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2b.png)
+
+   ![Profile Tab View - Activity Stream Sub Tab](img/iterations/1.2.0/wireframes/dashboard-v.1.2.0.2c.png)
+
+
+----
+
 
 
 
 #### User Stories
 
 The stories below are derived from needs analysis of interviews conducted with news staffs of all types over the past year. Coupling our features and flows with that of each role will help us to stay focused on their explicit needs.
+
+TODO: Use cases covering all in and out flows once user stories have been validated.
 
 
 ##### *As an Engagement Editor*
