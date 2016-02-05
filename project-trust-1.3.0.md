@@ -28,7 +28,7 @@
 
  ![Dashboard](img/iterations/1.3.0/wireframes/dashboard-v.1.3.0.2.png)
 
- 7. The search panel provides a quick view and search utility across different content and data sources.
+ 7. The panel provides a quick view and search utility across different content and data sources.
 
  ![Dashboard](img/iterations/1.3.0/wireframes/dashboard-v.1.3.0.2a.png)
 
