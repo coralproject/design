@@ -1,20 +1,20 @@
-### 1.0.0
+## 1.0.0
 
 
-#### Mockup
+### Mockup
 
-##### Dashboard List Driven UI
+#### Dashboard List Driven UI
 
 ![List Driven UI](img/iterations/1.0.0/dashboard v.1.0.0.png)
 
 
-#### Wireframes
+### Wireframes
 
-##### Zones
+#### Zones
 
 ![Portlet zones](img/iterations/1.0.0/zones-1280.png)
 
-##### List driven UI
+#### List driven UI
 
  1.  Dashboard side panel closed
 

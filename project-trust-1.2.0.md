@@ -1,8 +1,8 @@
-### 1.2.0
+## 1.2.0
 
-#### Wireframes
+### Wireframes
 
-##### Annotated
+#### Annotated
 
  List driven UI - Annotated Dashboard Wireframe
 
@@ -11,7 +11,7 @@
 
 
 
-##### Screens
+#### Screens
 
 Changes in this iteration include repositioned user card in the top right (1.2.0.0) and the user manager as a tab in the data rather than its own page (1.2.0.1).
 
@@ -61,14 +61,14 @@ Changes in this iteration include repositioned user card in the top right (1.2.0
 
 
 
-#### User Stories
+### User Stories
 
 The stories below are derived from needs analysis of interviews conducted with news staffs of all types over the past year. Coupling our features and flows with that of each role will help us to stay focused on their explicit needs.
 
 TODO: Use cases covering all in and out flows once user stories have been validated.
 
 
-##### *As an Engagement Editor*
+#### *As an Engagement Editor*
 
  -  I need analytics to be able to track people on site, retention, etc in order to calculate lifetime value of each reader. This is because it helps with the business calculations / advertising / proving and quantifying the value of community.
 
