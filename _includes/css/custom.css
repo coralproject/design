@@ -106,6 +106,7 @@ h6 {
   font-size: 1.3em;
   padding: 0;
   margin: 0;
+
 }
 .img-circle img {
     -webkit-transform: scale(1.5);
@@ -1375,7 +1376,7 @@ ul.social-buttons li a:active {
 .artifacts-modal .figure {
   font-size: 1.2em;
   margin: 2em auto 5em auto;
-
+border-bottom: 1px solid #ddd;
 }
 .iterations-modal .figure .caption,
 .artifacts-modal .figure .caption {
