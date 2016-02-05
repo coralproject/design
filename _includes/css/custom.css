@@ -479,7 +479,9 @@ dt:after {
     border: 1px solid transparent;
     border-radius: 2px;
 }
-
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 100%;
+}
 .navbar-default {
     border-color: transparent;
 
@@ -1102,13 +1104,14 @@ section h3.section-subheading {
 @media(max-width: 1000px) {
     .nav li  {
         font-size: 0.85em;
-
+        height: 80px;
     }
     .nav li {
       overflow: hidden;
     }
     .container {
-      width: 95%;
+      width: 100%;
+
     }
 }
 @media(min-width:1200px) {
