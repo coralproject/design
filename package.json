@@ -6,19 +6,20 @@
   "author": "Angel Colberg <angel@mozillafoundation.org> (https://github.com/coralproject/design)",
   "license": "MIT",
   "scripts": {
-    "start": "jekyll server",
-    "build": "npm run build:convert -s & npm run build:format -s & npm run build:safe -s",
+
+    "build": "npm run build:convert  && npm run build:format && npm run build:safe",
     "build:convert": "find . -name \\*.md -maxdepth 1 -type f -exec pandoc -o _includes/{}.html {} \\;",
-    "build:format": "find . -name '*.md.html' -exec sh -c -v 'mv \"$0\" \"${0%.md.html}.html\"' {} \\;",
+    "build:format": "find . -name '*.md.html' -exec sh -c 'mv \"$0\" \"${0%.md.html}.html\"' {} \\;",
     "build:safe": "jekyll build --safe",
     "postbuild": "echo Done",
     "trace": "jekyll build --trace",
     "open:prod": "open https://coralproject.github.io/design/",
     "open:dev": "open http://127.0.0.1:4000/design/",
     "predeploy": "git add .",
-    "deploy": "git push origin gh-pages",
-    "serve": "jekyll serve --watch",
-    "dev": "npm run serve -s & npm run open:dev -s"
+    "deploy": "git commit",
+    "postdeploy": "git push origin gh-pages",
+    "server": "jekyll serve --watch",
+    "dev": "npm run serve & npm run open:dev"
   },
   "repository": {
     "type": "git",

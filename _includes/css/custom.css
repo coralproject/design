@@ -1104,15 +1104,15 @@ section h3.section-subheading {
 @media(max-width: 1000px) {
     .nav li  {
         font-size: 0.85em;
-        height: 80px;
+        height: 60px;
     }
     .nav li {
       overflow: hidden;
     }
     .container {
-      width: 100%;
-
+      width: 95%;
     }
+
 }
 @media(min-width:1200px) {
     .timeline>li {
