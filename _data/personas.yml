@@ -1,6 +1,7 @@
 - persona-id: 1
   name: Persona name
-  pic: https://s3.amazonaws.com/uifaces/faces/twitter/dannpetty/128.jpg
+  #pic: https://s3.amazonaws.com/uifaces/faces/twitter/dannpetty/128.jpg
+  pic: img/personas/2.jpg
   role: Journalist
   tagline: "To see community as potential contributors."
   archetypes:
@@ -30,7 +31,8 @@
 
 - persona-id: 2
   name: Persona Name
-  pic: https://s3.amazonaws.com/uifaces/faces/twitter/nuraika/128.jpg
+  #pic: https://s3.amazonaws.com/uifaces/faces/twitter/nuraika/128.jpg
+  pic: img/personas/1.jpg
   role: Moderator
   tagline: "Would love to have tools to pass on knowledge about active trolls, top commenters, etc within the system so that user behavior can be understood in context, and so that institutional knowledge isn't lost if someone leaves.
 "
@@ -62,7 +64,8 @@
 
 - persona-id: 3
   name: Persona
-  pic: https://s3.amazonaws.com/uifaces/faces/twitter/marcosmoralez/128.jpg
+  #pic: https://s3.amazonaws.com/uifaces/faces/twitter/marcosmoralez/128.jpg
+  pic: img/personas/3.jpg
   role: Engagement Editor
   tagline: "Likes to encourage good commenters to stick around so that the best contributors keep adding value to the site."
   archetypes:
