@@ -11,6 +11,6 @@ project-date: January 2016
 designer: Angel
 iteration: 1.2.0
 category: UX
-description: "Iterations for our core product, a reputation analytics tool. "
+description: "Data view explorations bring the user manager and the data view together on the dashboard within a tabular ui pattern."
 md-file: project-trust-1.2.0.html
 ---

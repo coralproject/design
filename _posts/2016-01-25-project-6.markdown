@@ -11,6 +11,6 @@ project-date: October 2015
 designer: Angel
 iteration: 1.1.0
 category: UX
-description: "Iterations for our core product, a reputation analytics tool."
+description: "Refining feature set down to what we can and or should feasibly build in the initial phase."
 md-file: project-trust-1.1.0.html
 ---

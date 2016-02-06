@@ -28,7 +28,7 @@ git clone https://github.com/coralproject/design.git
 - pandoc
 - parallelshell
 
-Install dependencies with npm (TODO: full dep list and set up instructions via npm scripts)
+Install dependencies with npm (TODO: full dep list)
 ```
 npm install
 ```

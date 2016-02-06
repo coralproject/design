@@ -9,7 +9,7 @@ body {
     font-family: "Open Sans",Helvetica, Arial ,sans-serif;
     font-size: 16px;
     line-height: 1.85em;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.primary-text }};
 }
 code {
     font-family: "Fira Mono",Menlo,Monaco,Consolas,"Courier New",monospace;
@@ -1112,7 +1112,7 @@ section h3.section-subheading {
     .container {
       width: 95%;
     }
-
+    #tabzilla {}
 }
 @media(min-width:1200px) {
     .timeline>li {

@@ -18,15 +18,15 @@
 
  1.  Dashboard side panel closed
 
- ![H1 List Driven UI - panel closed](img/iterations/1.0.0/dashboard v.1.0.0.png)
+ ![List Driven UI - panel closed](img/iterations/1.0.0/dashboard v.1.0.0.png)
 
  2. Dashboard side panel open
 
- ![H1 List Driven UI - panel open](img/iterations/1.0.0/dashboard v.1.0.1.png)
+ ![List Driven UI - panel open](img/iterations/1.0.0/dashboard v.1.0.1.png)
 
  3. Module Detail View / Options
 
- ![H1 Module Detail View](img/iterations/1.0.0/module-detail-view-1.0.0.png)
+ ![Module Detail View](img/iterations/1.0.0/module-detail-view-1.0.0.png)
 
  4. User manager profile
 

@@ -7,7 +7,11 @@
      * [Secondary](secondary-persona.md)
      * [Tertiary](tertiary-persona.md)
   5. [Roadmap](roadmap.md)
-  6. [Core Product](project-trust.md)
+  6. [Core Product Overview](project-trust.md)
+  6. [Core Product 1.0.0](project-trust-1.0.0.md)
+  6. [Core Product 1.1.0](project-trust-1.1.0.md)
+  6. [Core Product 1.2.0](project-trust-1.2.0.md)
+  6. [Core Product 1.3.0](project-trust-1.3.0.md)
   7. [Install](install.md)
 </span>
 
