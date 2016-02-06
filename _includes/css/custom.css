@@ -9,7 +9,7 @@ body {
     font-family: "Open Sans",Helvetica, Arial ,sans-serif;
     font-size: 16px;
     line-height: 1.85em;
-    color: #{{ site.color.primary-text }};
+    color: #{{ site.color.secondary-dark }};
 }
 code {
     font-family: "Fira Mono",Menlo,Monaco,Consolas,"Courier New",monospace;

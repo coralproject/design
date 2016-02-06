@@ -6,12 +6,31 @@
   pic: iterations/cp-presentation-coral-thumbnail.png
   link:
     - type: file-powerpoint-o
-      url: assets/templates/cp-starter-widescreen.pptx
+      url: src/cp-starter-widescreen.pptx
     - type: apple
-      url: assets/templates/cp-starter-widescreen.key
+      url: src/cp-starter-widescreen.key
 
   alt: Coral Project Presentation Templates
   category: Templates
   iteration: 1.0
   date: 2016-01-25
   description: "Presentation templates for Powerpoint and Keynote"
+
+- doc-id: 2
+  name: Coral Project Logo Source Files
+  pic: logos/logo-1.5-thumbnail.png
+  link:
+    - type: file-image-o
+      url: src/coralLogoMark-1.5.sketch
+    - type: file-image-o
+      url: src/coralProjectLogo-1.5.ai
+    - type: file-pdf-o
+      url: src/coralProjectLogo-1.5.pdf
+    - type: file-code-o
+      url: src/coralProjectLogo-1.5.svg
+
+  alt: Coral Project Logo Templates
+  category: Templates
+  iteration: 1.0
+  date: 2016-01-25
+  description: "Source files for Coral Project logo mark."

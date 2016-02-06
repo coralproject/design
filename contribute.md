@@ -21,24 +21,27 @@ Contributions are always **welcome**!
 
 - Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/))
 - Clone to your machine
-  ```
-  git clone https://github.com/YOUR_USERNAME/design.git
+```
+git clone https://github.com/YOUR_USERNAME/design.git
+```
 
-  ```
 - Create your feature branch
-  ```
-  git checkout -b my-new-feature
-  ```
+```
+git checkout -b my-new-feature
+```
+
 - Make your changes
 
 - Commit your changes
-  ```
-  git commit -am 'Add some feature'
-  ```
+```
+git commit -am 'Add some feature'
+```
+
 - Push to the branch
-  ```
-  git push origin my-new-feature
-  ```
+```
+git push origin my-new-feature
+```
+
 - Create a pull request ([here is the guide]https://help.github.com/articles/creating-a-pull-request/))
 
 #### Contribution Requirements:

@@ -6,7 +6,6 @@
   "author": "Angel Colberg <angel@mozillafoundation.org> (https://github.com/coralproject/design)",
   "license": "MIT",
   "scripts": {
-
     "build": "npm run build:convert  && npm run build:format && npm run build:safe",
     "build:convert": "find . -name \\*.md -maxdepth 1 -type f -exec pandoc -o _includes/{}.html {} \\;",
     "build:format": "find . -name '*.md.html' -exec sh -c 'mv \"$0\" \"${0%.md.html}.html\"' {} \\;",
@@ -36,6 +35,7 @@
     "node-sass": "^3.4.2",
     "npm": "^3.6.0",
     "pandoc": "^0.2.0",
-    "prompt": "^0.2.14"
+    "prompt": "^0.2.14",
+    "sass": "^0.5.0"
   }
 }
