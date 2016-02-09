@@ -1147,7 +1147,20 @@ section h3.section-subheading {
     }
 
 }
+@media(max-width:1000px) {
 
+    .navbar-default .navbar-brand {
+        background-image: url("/design/img/logos/coralLogoMark-1.5.white.png");
+        background-size: auto 50px;
+        margin-left: 1em;
+        width: 50px;
+    }
+
+    .navbar-shrink .navbar-brand {
+      width: 50px;
+    }
+
+}
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -1458,20 +1471,5 @@ img {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 
-
-}
-
-@media(max-width:1200px) {
-
-    .navbar-default .navbar-brand {
-        background-image: url("/design/img/logos/coralLogoMark-1.5.white.png");
-        background-size: auto 50px;
-        margin-left: 1em;
-        width: 50px;
-    }
-
-    .navbar-shrink .navbar-brand {
-      width: 50px;
-    }
 
 }

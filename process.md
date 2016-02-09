@@ -47,7 +47,10 @@ Task-focused follow-up interviews are currently being planned for our first prod
 
 #### Needs Analysis  
 Needs analysis based on interviews from the exploratory research phase.   
-[Trello board](https://trello.com/b/Dhrb4D74/coral-s-needs-public) with needs by role.  
+[Trello board](https://trello.com/b/Dhrb4D74/coral-s-needs-public) with needs by role.
+
+<link href="css/static.css" rel="stylesheet"/>
+<script src="https://trello.com/b/Dhrb4D74.js"></script>
 
 #### Features Breakdown   
  Feature brainstorm and affinity session based deliverable.
